@@ -6,7 +6,7 @@
  *
  * COMPONENT:      zps_gen.c
  *
- * DATE:           Wed Jun 24 16:31:46 2020
+ * DATE:           Wed Jun 24 16:32:49 2020
  *
  * AUTHOR:         Jennic Zigbee Protocol Stack Configuration Tool
  *
@@ -519,15 +519,13 @@ PUBLIC bool zps_bAplZdoBindUnbindServer(void *, void *, ZPS_tsAfEvent *);
 PUBLIC void zps_vAplZdoBindUnbindServerInit(void *, PDUM_thAPdu );
 PUBLIC bool zps_bAplZdoBindRequestServer(void *, void *, ZPS_tsAfEvent *);
 PUBLIC void zps_vAplZdoBindRequestServerInit(void *, uint8, uint8, zps_tsZdoServerConfAckContext* );
+PUBLIC bool zps_bAplZdoMgmtBindServer(void *, void *, ZPS_tsAfEvent *);
+PUBLIC void zps_vAplZdoMgmtBindServerInit(void *, PDUM_thAPdu );
 PUBLIC bool zps_bAplZdoPermitJoiningServer(void *, void *, ZPS_tsAfEvent *);
 PUBLIC void zps_vAplZdoPermitJoiningServerInit(void *, PDUM_thAPdu );
 PUBLIC bool zps_bAplZdoMgmtRtgServer(void *, void *, ZPS_tsAfEvent *);
 PUBLIC void zps_vAplZdoMgmtRtgServerInit(void *, PDUM_thAPdu );
-PUBLIC bool zps_bAplZdoEndDeviceBindServer(void *, void *, ZPS_tsAfEvent *);
-PUBLIC void zps_vAplZdoEndDeviceBindServerInit(void *, PDUM_thAPdu , uint32 , uint8 );
 
-/* Trust Center */
-PUBLIC void zps_vAplTrustCenterInit(void *);PUBLIC void zps_vAplTrustCenterUpdateDevice(void *, uint64 , uint64 , uint8 , uint16 );PUBLIC void zps_vAplTrustCenterRequestKey(void *, uint64 , uint8 , uint64 );
 /****************************************************************************/
 /***        Local Variables                                               ***/
 /****************************************************************************/
@@ -539,20 +537,16 @@ PRIVATE ZPS_tsAplApsmeGroupTableEntry s_groupTableStorage[8];
 PRIVATE ZPS_tsAplApsmeAIBGroupTable s_groupTable = { s_groupTableStorage, 8 };
 PRIVATE ZPS_tsAPdmGroupTableEntry s_groupTablePdmStorage[8];
 PUBLIC ZPS_tsPdmGroupTable s_groupPdmTable = { s_groupTablePdmStorage, 8 };
-PRIVATE ZPS_tsAplApsKeyDescriptorEntry s_keyPairTableStorage[7] = {
-    { 0xFFFF, { }, 0 , 0 , 1 },
-    { 0xFFFF, { }, 0 , 0 , 1 },
-    { 0xFFFF, { }, 0 , 0 , 1 },
-    { 0xFFFF, { }, 0 , 0 , 1 },
+PRIVATE ZPS_tsAplApsKeyDescriptorEntry s_keyPairTableStorage[3] = {
     { 0xFFFF, { }, 0 , 0 , 1 },
 };
-PRIVATE ZPS_tsAplApsKeyDescriptorTable s_keyPairTable = { s_keyPairTableStorage, 5 };
+PRIVATE ZPS_tsAplApsKeyDescriptorTable s_keyPairTable = { s_keyPairTableStorage, 1 };
 
 PRIVATE ZPS_tsAplAib s_sAplAib = {
     0,
     0x0000000000000000ULL,
-    0x00008000UL,
-    TRUE,
+    0x07fff800UL,
+    FALSE,
     TRUE,
     0x02,
     0x0a,
@@ -563,7 +557,7 @@ PRIVATE ZPS_tsAplAib s_sAplAib = {
     &s_bindingTables,
     &s_groupTable,
     &s_keyPairTable,
-    &s_keyPairTableStorage[5],
+    &s_keyPairTableStorage[1],
     0x0bb8,
 };
 PRIVATE uint8 s_sDefaultServerContext[4] __attribute__ ((aligned (4)));
@@ -583,9 +577,9 @@ PRIVATE uint8 s_sMgmtNWKUpdateServerContext[64] __attribute__ ((aligned (4)));
 PRIVATE uint8 s_sBindUnbindServerContext[64] __attribute__ ((aligned (4)));
 PRIVATE uint8 s_sBindRequestServerContext[92] __attribute__ ((aligned (4)));
 PRIVATE zps_tsZdoServerConfAckContext s_sBindRequestServerAcksDcfmContext[3];
+PRIVATE uint8 s_sMgmtBindServerContext[4] __attribute__ ((aligned (4)));
 PRIVATE uint8 s_sPermitJoiningServerContext[4] __attribute__ ((aligned (4)));
 PRIVATE uint8 s_sMgmtRtgServerContext[4] __attribute__ ((aligned (4)));
-PRIVATE uint8 s_sEndDeviceBindServerContext[64] __attribute__ ((aligned (4)));
 
 /* ZDO Servers */
 PRIVATE const zps_tsAplZdoServer s_asAplZdoServers[20] = {
@@ -604,9 +598,9 @@ PRIVATE const zps_tsAplZdoServer s_asAplZdoServers[20] = {
     { zps_bAplZdoMgmtNWKUpdateServer, s_sMgmtNWKUpdateServerContext },
     { zps_bAplZdoBindUnbindServer, s_sBindUnbindServerContext },
     { zps_bAplZdoBindRequestServer, s_sBindRequestServerContext },
+    { zps_bAplZdoMgmtBindServer, s_sMgmtBindServerContext },
     { zps_bAplZdoPermitJoiningServer, s_sPermitJoiningServerContext },
     { zps_bAplZdoMgmtRtgServer, s_sMgmtRtgServerContext },
-    { zps_bAplZdoEndDeviceBindServer, s_sEndDeviceBindServerContext },
     { zps_bAplZdoDefaultServer, s_sDefaultServerContext },
     { NULL, NULL }
 };
@@ -619,12 +613,12 @@ PRIVATE uint8 s_au8Endpoint0InputClusterDiscFlags[11] = { 0x00, 0x00, 0x00, 0x00
 PRIVATE const uint16 s_au16Endpoint0OutputClusterList[83] = { 0x0000, 0x0001, 0x0002, 0x0003, 0x0004, 0x0005, 0x0006, 0x0010, 0x0011, 0x0012, 0x0013, 0x0014, 0x0015, 0x0016, 0x0017, 0x0018, 0x0019, 0x001a, 0x001b, 0x001c, 0x001d, 0x001e, 0x0020, 0x0021, 0x0022, 0x0023, 0x0024, 0x0025, 0x0026, 0x0027, 0x0028, 0x0029, 0x002a, 0x0030, 0x0031, 0x0032, 0x0033, 0x0034, 0x0035, 0x0036, 0x0037, 0x0038, 0x8000, 0x8001, 0x8002, 0x8003, 0x8004, 0x8005, 0x8006, 0x8010, 0x8011, 0x8012, 0x8014, 0x8015, 0x8016, 0x8017, 0x8018, 0x8019, 0x801a, 0x801b, 0x801c, 0x801d, 0x801e, 0x8020, 0x8021, 0x8022, 0x8023, 0x8024, 0x8025, 0x8026, 0x8027, 0x8028, 0x8029, 0x802a, 0x8030, 0x8031, 0x8032, 0x8033, 0x8034, 0x8035, 0x8036, 0x8037, 0x8038, };
 PRIVATE uint8 s_au8Endpoint0OutputClusterDiscFlags[11] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
 
-PRIVATE const uint16 s_au16Endpoint1InputClusterList[1] = { 0xffff, };
-PRIVATE const PDUM_thAPdu s_ahEndpoint1InputClusterAPdus[1] = { apduZCL, };
-PRIVATE uint8 s_au8Endpoint1InputClusterDiscFlags[1] = { 0x00 };
+PRIVATE const uint16 s_au16Endpoint1InputClusterList[9] = { 0x0000, 0x0004, 0x0003, 0x0006, 0x0008, 0x0005, 0xffff, 0x0019, 0x0300, };
+PRIVATE const PDUM_thAPdu s_ahEndpoint1InputClusterAPdus[9] = { apduZCL, apduZCL, apduZCL, apduZCL, apduZCL, apduZCL, apduZCL, apduZCL, apduZCL, };
+PRIVATE uint8 s_au8Endpoint1InputClusterDiscFlags[2] = { 0x3f, 0x01 };
 
-PRIVATE const uint16 s_au16Endpoint1OutputClusterList[1] = { 0xffff, };
-PRIVATE uint8 s_au8Endpoint1OutputClusterDiscFlags[1] = { 0x00 };
+PRIVATE const uint16 s_au16Endpoint1OutputClusterList[8] = { 0x0000, 0x0004, 0x0003, 0x0006, 0x0008, 0x0005, 0x0019, 0x0300, };
+PRIVATE uint8 s_au8Endpoint1OutputClusterDiscFlags[1] = { 0x40,  };
 
 PRIVATE zps_tsAplAfSimpleDescCont s_asSimpleDescConts[2] = {
     {
@@ -645,14 +639,14 @@ PRIVATE zps_tsAplAfSimpleDescCont s_asSimpleDescConts[2] = {
         1
     },
     {
-        NULL,
+        APP_msgZpsEvents_ZCL,
         {
             0x0104,
-            0,
-            0,
+            258,
+            2,
             1,
-            1,
-            1,
+            9,
+            8,
             s_au16Endpoint1InputClusterList,
             s_au16Endpoint1OutputClusterList,
             s_au8Endpoint1InputClusterDiscFlags,
@@ -665,17 +659,17 @@ PRIVATE zps_tsAplAfSimpleDescCont s_asSimpleDescConts[2] = {
 
 /* Node Descriptor */
 PRIVATE ZPS_tsAplAfNodeDescriptor s_sNodeDescriptor = {
-    0,
+    1,
     FALSE,
     FALSE,
     0,
     8,
     0,
-    0x8f,
+    0x8e,
     0x1037,
     0x7f,
     0x0064,
-    0x0041,
+    0x0000,
     0x0064,
     0x00};
 
@@ -704,63 +698,11 @@ PRIVATE zps_tsApsmeCmdContainer s_sApsmeCmdContainer_3 = { &s_sApsmeCmdContainer
 PRIVATE zps_tsApsmeCmdContainer s_sApsmeCmdContainer_2 = { &s_sApsmeCmdContainer_3, {}, {}, NULL, 0 };
 PRIVATE zps_tsApsmeCmdContainer s_sApsmeCmdContainer_1 = { &s_sApsmeCmdContainer_2, {}, {}, NULL, 0 };
 
-/* Trust Center */
-PRIVATE zps_tsAplTCDeviceTable s_asTrustCenterDeviceTable[37] = {
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                            { 0xFFFF, 0 },
-                                                                };
-PRIVATE zps_tsRequestKeyRequests s_asRequestKeyRequests[2];
-PRIVATE const zps_tsTrustCenterContext s_sTrustCenterContext = {
-    zps_vAplTrustCenterInit,
-    zps_vAplTrustCenterUpdateDevice,
-    zps_vAplTrustCenterRequestKey,
-    { s_asTrustCenterDeviceTable, 37 },
-    s_asRequestKeyRequests,
-    312500,
-    2
-};
-
-
 /* Network Layer Context */
 PRIVATE uint8                   s_sNwkContext[1784] __attribute__ ((aligned (4)));
 PRIVATE ZPS_tsNwkDiscNtEntry    s_asNwkNtDisc[8];
 PRIVATE ZPS_tsNwkActvNtEntry    s_asNwkNtActv[26];
-PRIVATE ZPS_tsNwkRtDiscEntry    s_asNwkRtDisc[4];
+PRIVATE ZPS_tsNwkRtDiscEntry    s_asNwkRtDisc[2];
 PRIVATE ZPS_tsNwkRtEntry        s_asNwkRt[70];
 PRIVATE ZPS_tsNwkBtr            s_asNwkBtt[20];
 PRIVATE ZPS_tsNwkRctEntry       s_asNwkRct[1];
@@ -806,7 +748,7 @@ PRIVATE const ZPS_tsNwkNibTblSize     s_sNwkTblSize = {
     1,
     10,
     8,
-    4,
+    2,
     20,
     2,
     sizeof(s_sNibInitialValues),
@@ -851,12 +793,12 @@ PRIVATE zps_tsApl s_sApl = {
     {
         0,
         0,
-        ZPS_ZDO_DEVICE_COORD,
-        ZPS_ZDO_PRECONFIGURED_LINK_KEY,
-        0xff,
+        ZPS_ZDO_DEVICE_ROUTER,
+        ZPS_ZDO_NO_NETWORK_KEY,
+        0x00,
         2,
         2,
-        4,
+        3,
         FALSE,
         s_asAplZdoServers,
         vZdoServersInit,
@@ -907,7 +849,7 @@ PRIVATE zps_tsApl s_sApl = {
         { NULL, NULL },
         { /* Timer */}
     },
-    &s_sTrustCenterContext
+    NULL
 };
 
 const void *zps_g_pvApl = &s_sApl;
@@ -972,9 +914,9 @@ PRIVATE void vZdoServersInit(void)
     zps_vAplZdoMgmtNWKUpdateServerInit(&s_sMgmtNWKUpdateServerContext, apduZDP, &s_sApl);
     zps_vAplZdoBindUnbindServerInit(&s_sBindUnbindServerContext, apduZDP);
     zps_vAplZdoBindRequestServerInit(&s_sBindRequestServerContext, 1, 3, s_sBindRequestServerAcksDcfmContext);
+    zps_vAplZdoMgmtBindServerInit(&s_sMgmtBindServerContext, apduZDP);
     zps_vAplZdoPermitJoiningServerInit(&s_sPermitJoiningServerContext, apduZDP);
     zps_vAplZdoMgmtRtgServerInit(&s_sMgmtRtgServerContext, apduZDP);
-    zps_vAplZdoEndDeviceBindServerInit(&s_sEndDeviceBindServerContext, apduZDP, 312500, 3);
 }
 
 PUBLIC void* ZPS_vGetGpContext(void)
@@ -986,7 +928,7 @@ PUBLIC void* ZPS_vGetGpContext(void)
 
 PUBLIC void ZPS_vDefaultKeyInit(void)
 {
-    psAplDefaultZLLAPSLinkKey = &s_keyPairTableStorage[6];
+    psAplDefaultZLLAPSLinkKey = &s_keyPairTableStorage[2];
 }
 
 

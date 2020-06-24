@@ -21,7 +21,7 @@ app_timer_driver.o: \
  c:\nxp\bstudio_nxp\sdk\tools\ba-elf-ba2-r36379\bin\../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/include/machine/types.h \
  c:\nxp\bstudio_nxp\sdk\tools\ba-elf-ba2-r36379\bin\../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/include/sys/stdio.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/OS/Include/os.h \
- c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h \
+ c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PWRM/Include/pwrm.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/HardwareApi/Include/AppHardwareApi.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/HardwareApi/Include/AppHardwareApi_JN5168.h \
@@ -69,7 +69,7 @@ c:\nxp\bstudio_nxp\sdk\tools\ba-elf-ba2-r36379\bin\../lib/gcc/ba-elf/4.7.4/../..
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/OS/Include/os.h:
 
-c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h:
+c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h:
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PWRM/Include/pwrm.h:
 

@@ -1,5 +1,5 @@
 app_endpoint.o: \
- c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/app_endpoint.c \
+ c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/app_endpoint.c \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Common/Include/jendefs.h \
  c:\nxp\bstudio_nxp\sdk\tools\ba-elf-ba2-r36379\bin\../lib/gcc/ba-elf/4.7.4/include/stdint.h \
  c:\nxp\bstudio_nxp\sdk\tools\ba-elf-ba2-r36379\bin\../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/include/stdint.h \
@@ -22,17 +22,17 @@ app_endpoint.o: \
  c:\nxp\bstudio_nxp\sdk\tools\ba-elf-ba2-r36379\bin\../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/include/sys/stdio.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/DBG/Include/dbg.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/OS/Include/os.h \
- c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h \
+ c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PDUM/Include/pdum_apl.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PDUM/Include/pdum_common.h \
- c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/pdum_gen.h \
+ c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/pdum_gen.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PWRM/Include/pwrm.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/HardwareApi/Include/AppHardwareApi.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/HardwareApi/Include/AppHardwareApi_JN5168.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/HardwareApi/Include/AppHardwareApi_JN516x.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PDM/Include/pdm.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Aes/Include/AHI_AES.h \
- c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/zps_gen.h \
+ c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/zps_gen.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/ZPSAPL/Include/zps_apl.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/ZPSAPL/Include/zps_apl_af.h \
  c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/ZPSMAC/Include/mac_vs_sap.h \
@@ -109,13 +109,13 @@ c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/DBG/Include/dbg.h:
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/OS/Include/os.h:
 
-c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h:
+c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/os_gen.h:
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PDUM/Include/pdum_apl.h:
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PDUM/Include/pdum_common.h:
 
-c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/pdum_gen.h:
+c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/pdum_gen.h:
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PWRM/Include/pwrm.h:
 
@@ -129,7 +129,7 @@ c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/PDM/Include/pdm.h:
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Aes/Include/AHI_AES.h:
 
-c:/NXP/bstudio_nxp/workspacev2/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/zps_gen.h:
+c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/Coordinator/Source/zps_gen.h:
 
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/ZPSAPL/Include/zps_apl.h:
 

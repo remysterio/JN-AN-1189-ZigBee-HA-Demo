@@ -6,7 +6,7 @@
 #
 # COMPONENT:      os_irq.s
 #
-# DATE:           Wed Jun 24 16:31:42 2020
+# DATE:           Wed Jun 24 16:32:45 2020
 #
 # AUTHOR:         Jennic RTOS Configuration Tool
 #
@@ -75,22 +75,22 @@ os_ExternalException_W:
     .type   os_PIC_ChannelPriorities, @object
     .size   os_PIC_ChannelPriorities, 16
 os_PIC_ChannelPriorities:
-    .byte 0
-    .byte 0
+    .byte 14
+    .byte 14
     .byte 0
     .byte 7
     .byte 0
     .byte 0
     .byte 0
     .byte 0
-    .byte 0
-    .byte 0
-    .byte 0
-    .byte 0
+    .byte 14
     .byte 0
     .byte 0
     .byte 0
     .byte 15
+    .byte 13
+    .byte 0
+    .byte 12
 
     .globl  os_OSMIUM_HwVectTable
     .extern os_UnclaimedException_W
@@ -133,10 +133,10 @@ os_PIC_SwVectTable:
     .word os_UnclaimedInterrupt_W
     .word os_UnclaimedInterrupt_W
     .word os_UnclaimedInterrupt_W
-    .word os_UnclaimedInterrupt_W
-    .word os_UnclaimedInterrupt_W
-    .word os_UnclaimedInterrupt_W
     .word os_APP_isrTickTimer_W
+    .word os_vISR_AdcDone_W
+    .word os_vISR_PwmTimer_W
+    .word os_vISR_SettleTimer_W
 
     .section .text,"ax"
     .align 4
@@ -175,4 +175,52 @@ os_APP_isrTickTimer_W:
     b.ja   os_ExternalException_R
 os_APP_isrTickTimer_J:
     b.ori  r3,r0,os_vAPP_isrTickTimer
+    b.ja   os_vControlledIntCheck
+
+    .extern os_vvISR_AdcDone
+os_vISR_AdcDone_W:
+    b.addi r1,r1,-8
+    b.sw   0(r1),r9
+    b.sw   4(r1),r5
+    b.ori  r4,r0,os_vISR_AdcDone_J
+    b.ori  r5,r0,os_vControlledInterrupt
+    b.jal  os_CFunc_W
+    b.lwz  r9,0(r1)
+    b.lwz  r5,4(r1)
+    b.addi r1,r1,8
+    b.ja   os_ExternalException_R
+os_vISR_AdcDone_J:
+    b.ori  r3,r0,os_vvISR_AdcDone
+    b.ja   os_vControlledIntCheck
+
+    .extern os_vvISR_PwmTimer
+os_vISR_PwmTimer_W:
+    b.addi r1,r1,-8
+    b.sw   0(r1),r9
+    b.sw   4(r1),r5
+    b.ori  r4,r0,os_vISR_PwmTimer_J
+    b.ori  r5,r0,os_vControlledInterrupt
+    b.jal  os_CFunc_W
+    b.lwz  r9,0(r1)
+    b.lwz  r5,4(r1)
+    b.addi r1,r1,8
+    b.ja   os_ExternalException_R
+os_vISR_PwmTimer_J:
+    b.ori  r3,r0,os_vvISR_PwmTimer
+    b.ja   os_vControlledIntCheck
+
+    .extern os_vvISR_SettleTimer
+os_vISR_SettleTimer_W:
+    b.addi r1,r1,-8
+    b.sw   0(r1),r9
+    b.sw   4(r1),r5
+    b.ori  r4,r0,os_vISR_SettleTimer_J
+    b.ori  r5,r0,os_vControlledInterrupt
+    b.jal  os_CFunc_W
+    b.lwz  r9,0(r1)
+    b.lwz  r5,4(r1)
+    b.addi r1,r1,8
+    b.ja   os_ExternalException_R
+os_vISR_SettleTimer_J:
+    b.ori  r3,r0,os_vvISR_SettleTimer
     b.ja   os_vControlledIntCheck

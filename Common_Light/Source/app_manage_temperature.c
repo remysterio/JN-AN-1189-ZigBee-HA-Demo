@@ -95,6 +95,7 @@ PRIVATE int16 i16GetChipTemp(uint16 u16AdcValue);
 /****************************************************************************/
 
 PUBLIC void APP_vManageTemperatureInit(void)
+
 {
 	/* set up the ADCS on platforms that dont already use them */
 #if (defined DR1175) || (defined DR1173) || (defined DR1190)
@@ -247,7 +248,35 @@ PUBLIC void APP_vManageTemperatureTick(uint32 u32Ticks)
 		}
 	}
 }
+PUBLIC void APP_vManageTemperatureTick2()
+{
 
+	uint16 u16AdcTempSensor;
+	DBG_vPrintf(TRUE, "\n\nAPP: SALUT1\n");
+        if (!bAHI_APRegulatorEnabled())
+        {
+	        vAHI_ApConfigure(E_AHI_AP_REGULATOR_ENABLE,
+						 E_AHI_AP_INT_DISABLE,
+						 E_AHI_AP_SAMPLE_2,
+						 E_AHI_AP_CLOCKDIV_500KHZ,
+						 E_AHI_AP_INTREF);
+
+	        while (!bAHI_APRegulatorEnabled());   /* spin on reg not enabled */
+        }
+
+		vAHI_AdcEnable(E_AHI_ADC_CONTINUOUS,E_AHI_AP_INPUT_RANGE_1,E_AHI_ADC_SRC_ADC_2);
+		vAHI_AdcStartSample();
+		DBG_vPrintf(TRUE, "\n\nAPP: SALUT2\n");
+		while(1){
+			DBG_vPrintf(TRUE, "\n\nAPP: SALUT4\n");
+			u16AdcTempSensor = u16AHI_AdcRead();
+			DBG_vPrintf(TRUE, "\n\nAPP: SALUT5\n");
+			DBG_vPrintf(TRUE, "\nAPP: %d \n",u16AdcTempSensor);
+		}
+
+
+		DBG_vPrintf(TRUE, "\n\nAPP: SALUT3\n");
+}
 /****************************************************************************/
 /* NAME: i16GetChipTemp                                                     */
 /*                                                                          */
