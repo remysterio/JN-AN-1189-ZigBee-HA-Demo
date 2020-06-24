@@ -181,7 +181,7 @@ c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libPDM_EEPROM_JN516x.a(PDM_
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libPDM_EEPROM_JN516x.a(PDM_EEPROM.o)
                               PDM_EEPROMheaderReadAndWrite.o (symbol from plugin) (bPDM_InitialiseEEPROM)
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libDBG_JN516x.a(dbg.o)
-                              c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/ColorDimmableLight/Build/app_exceptions.o (symbol from plugin) (dbg_vPrintfImplNoneVerbose)
+                              c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/ColorDimmableLight/Build/app_manage_temperature.o (symbol from plugin) (dbg_vPrintfImplNoneVerbose)
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libDBG_JN516x.a(dbg_uart.o)
                               c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/ColorDimmableLight/Build/app_start_light.o (symbol from plugin) (DBG_vUartInit)
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libDBG_JN516x.a(dbg_exceptions.o)
@@ -413,71 +413,71 @@ c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libAes_JN516x.a(AEScoproces
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libHardwareApi_JN5169.a(AHI_Si.o)
                               PCA9634.o (symbol from plugin) (vAHI_SiMasterConfigure)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (memcmp)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (memcmp)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o (memcpy)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o (memcpy)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o (memset)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o (memset)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strlen.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o (strlen)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o (strlen)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-strncpy.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o (strncpy)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o (strncpy)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__udivsi3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o (__udivsi3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o (__udivsi3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__divsi3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o (__divsi3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o (__divsi3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__umodsi3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o (__umodsi3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o (__umodsi3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(__modsi3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o (__modsi3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o (__modsi3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__fixunsdfsi)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__fixunsdfsi)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_divdi3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o (__divdi3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o (__divdi3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_udivdi3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans12.ltrans.o (__udivdi3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans12.ltrans.o (__udivdi3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(addsf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__addsf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__addsf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divsf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__divsf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__divsf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(eqsf2.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__eqsf2)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__eqsf2)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gesf2.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__gesf2)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__gesf2)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(lesf2.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__lesf2)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__lesf2)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(mulsf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__mulsf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__mulsf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subsf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__subsf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__subsf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixsfsi.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__fixsfsi)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__fixsfsi)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(floatunsisf.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__floatunsisf)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__floatunsisf)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(adddf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__adddf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__adddf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(divdf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__divdf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__divdf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(gedf2.o)
                               c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o) (__gedf2)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(muldf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__muldf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__muldf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(subdf3.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__subdf3)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__subdf3)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(fixdfsi.o)
                               c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(_fixunsdfsi.o) (__fixdfsi)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(extendsfdf2.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__extendsfdf2)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__extendsfdf2)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a(truncdfsf2.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (__truncdfsf2)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (__truncdfsf2)
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libOS_JN516x.a(os_version_lc.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o (OS_Version_1v2)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o (OS_Version_1v2)
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libZPSAPL_JN516x.a(zps_apl_version_lc.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o (ZPS_APL_Version_2v0)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o (ZPS_APL_Version_2v0)
 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libZPSNWK_JN516x.a(zps_nwk_version_lc.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o (ZPS_NWK_Version_2v0)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o (ZPS_NWK_Version_2v0)
 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libm.a(lib_a-s_floor.o)
-                              C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o (floor)
+                              C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o (floor)
 
 Allocating common symbols
 Common symbol       size              file
@@ -525,35 +525,35 @@ uAttributeVal       0x10              c:/NXP/bstudio_nxp/workspace/JN-AN-1189-Zi
 Discarded input sections
 
  .text          0x0000000000000000        0x0 c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/ColorDimmableLight/Build/os_gen.o (symbol from plugin)
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans4.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans6.ltrans.o
- .rodata        0x0000000000000000        0x4 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans6.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans7.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans8.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans11.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans13.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans14.ltrans.o
- .rodata        0x0000000000000000       0x10 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans14.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans15.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans15.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans16.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans17.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans18.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans19.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans20.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans21.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans23.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans23.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans25.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans25.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans27.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans29.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans29.ltrans.o
- .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans31.ltrans.o
- .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans31.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans4.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans6.ltrans.o
+ .rodata        0x0000000000000000        0x4 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans6.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans7.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans8.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans11.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans13.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans14.ltrans.o
+ .rodata        0x0000000000000000       0x10 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans14.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans15.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans16.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans17.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans18.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans19.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans20.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans21.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans23.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans23.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans25.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans25.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans27.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans29.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans29.ltrans.o
+ .data          0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans31.ltrans.o
+ .bss           0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans31.ltrans.o
  .data          0x0000000000000000        0x0 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
  .bss           0x0000000000000000        0x0 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
  .data          0x0000000000000000        0x0 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
@@ -1052,38 +1052,38 @@ Linker script and memory map
                 0x00000000000007d0                __minimum_heap_size = 0x7d0
 START GROUP
 LOAD c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/ColorDimmableLight/Build/os_gen.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans4.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans5.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans6.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans7.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans8.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans9.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans10.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans11.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans12.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans13.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans14.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans15.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans16.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans17.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans18.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans19.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans20.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans21.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans23.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans24.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans25.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans26.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans27.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans29.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans30.ltrans.o
-LOAD C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans31.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans4.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans5.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans6.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans7.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans8.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans9.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans10.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans11.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans12.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans13.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans14.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans15.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans16.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans17.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans18.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans19.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans20.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans21.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans23.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans24.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans25.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans26.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans27.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans29.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans30.ltrans.o
+LOAD C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans31.ltrans.o
 LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
 LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/mcpu_jn51xx_sizeopt\libgcc.a
 LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a
@@ -1367,7 +1367,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
 
 .rodata         0x0000000000080038      0xb9d
  *(.rodata*)
- .rodata        0x0000000000080038       0x18 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o
+ .rodata        0x0000000000080038       0x18 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o
                 0x0000000000080038                psAplDefaultZLLAPSLinkKey
                 0x000000000008003c                gMAC_u8MaxBuffers
                 0x0000000000080040                g_u32ApsFcSaveCountBitShift
@@ -1375,114 +1375,114 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000080045                au8EpMapPresent
                 0x0000000000080048                s_groupPdmTable
  .rodata.str1.1
-                0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o
+                0x0000000000000000        0x0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o
                                           0x8 (size before relaxing)
- .rodata        0x0000000000080050       0x38 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o
+ .rodata        0x0000000000080050       0x38 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o
  .rodata.str1.1
-                0x0000000000080088        0x5 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o
+                0x0000000000080088        0x5 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o
                                           0x8 (size before relaxing)
  *fill*         0x000000000008008d        0x3 00
- .rodata        0x0000000000080090       0x8c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans5.ltrans.o
+ .rodata        0x0000000000080090       0x8c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans5.ltrans.o
                 0x0000000000080098                au32UartAddrOffset
  .rodata.str1.1
-                0x000000000008011c       0x1b C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans6.ltrans.o
+                0x000000000008011c       0x1b C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans6.ltrans.o
                                          0x2a (size before relaxing)
  .rodata.str1.1
-                0x0000000000080137        0x7 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans7.ltrans.o
+                0x0000000000080137        0x7 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans7.ltrans.o
                                           0xc (size before relaxing)
  .rodata.str1.1
-                0x000000000008013e        0x6 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans8.ltrans.o
- .rodata        0x0000000000080144       0x18 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans8.ltrans.o
+                0x000000000008013e        0x6 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans8.ltrans.o
+ .rodata        0x0000000000080144       0x18 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans8.ltrans.o
                 0x0000000000080144                au32NwkPdmRecordOffsets
  .rodata.str1.1
-                0x0000000000000000        0x6 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans9.ltrans.o
+                0x0000000000000000        0x6 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans9.ltrans.o
                                           0x8 (size before relaxing)
- .rodata        0x000000000008015c        0x7 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans9.ltrans.o
+ .rodata        0x000000000008015c        0x7 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans9.ltrans.o
                 0x000000000008015c                u8MacNwkTriesTimeout
  .rodata.str1.1
-                0x0000000000080163       0xc9 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans12.ltrans.o
+                0x0000000000080163       0xc9 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans12.ltrans.o
  .rodata.str1.1
-                0x0000000000000000       0xc9 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans13.ltrans.o
+                0x0000000000000000       0xc9 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans13.ltrans.o
                                           0x7 (size before relaxing)
  .rodata.str1.1
-                0x000000000008022c        0x5 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans14.ltrans.o
+                0x000000000008022c        0x5 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans14.ltrans.o
                                          0x17 (size before relaxing)
  .rodata.str1.1
-                0x0000000000000000        0x6 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans15.ltrans.o
+                0x0000000000000000        0x6 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans15.ltrans.o
  .rodata.str1.1
-                0x0000000000080231        0x7 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans16.ltrans.o
+                0x0000000000080231        0x7 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans16.ltrans.o
                                          0x19 (size before relaxing)
  .rodata.str1.1
-                0x0000000000000000        0x7 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans17.ltrans.o
+                0x0000000000000000        0x7 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans17.ltrans.o
                                           0x4 (size before relaxing)
- .rodata        0x0000000000080238       0x18 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans17.ltrans.o
+ .rodata        0x0000000000080238       0x18 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans17.ltrans.o
                 0x0000000000080248                pu64NewMacOverrideMyAddressLocation
                 0x000000000008024c                g_bReverToOldParent
  .rodata.str1.1
-                0x0000000000080250       0x10 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans18.ltrans.o
+                0x0000000000080250       0x10 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans18.ltrans.o
                                          0x2f (size before relaxing)
- .rodata        0x0000000000080260       0x2c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans18.ltrans.o
-                0x0000000000080268                s_aprActvStHandleCme.154422
+ .rodata        0x0000000000080260       0x2c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans18.ltrans.o
+                0x0000000000080268                s_aprActvStHandleCme.154426
  .rodata.str1.1
-                0x000000000008028c       0x40 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans20.ltrans.o
+                0x000000000008028c       0x40 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans20.ltrans.o
                                          0x73 (size before relaxing)
- .rodata        0x00000000000802cc       0x50 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans21.ltrans.o
+ .rodata        0x00000000000802cc       0x50 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans21.ltrans.o
                 0x00000000000802cc                pfnCallbackMcps
                 0x00000000000802d0                g_u32NwkFcSaveCountBitShift
- .rodata        0x000000000008031c        0x8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o
+ .rodata        0x000000000008031c        0x8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o
  .rodata.str1.1
-                0x0000000000080324       0x17 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans24.ltrans.o
+                0x0000000000080324       0x17 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans24.ltrans.o
  *fill*         0x000000000008033b        0x1 00
- .rodata        0x000000000008033c      0x118 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans24.ltrans.o
+ .rodata        0x000000000008033c      0x118 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans24.ltrans.o
                 0x000000000008033c                gu32ZCLVersion
                 0x0000000000080340                OS_g_u32Version
                 0x0000000000080344                PDUM_g_u32Version
                 0x0000000000080348                ZPS_g_u32MacVersion
                 0x000000000008034c                ZPS_g_u32TsvVersion
  .rodata.str1.1
-                0x0000000000080454       0x14 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans26.ltrans.o
+                0x0000000000080454       0x14 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans26.ltrans.o
                                          0x35 (size before relaxing)
- .rodata        0x0000000000080468      0x124 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans26.ltrans.o
+ .rodata        0x0000000000080468      0x124 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans26.ltrans.o
                 0x0000000000080468                g_bEnableRouteDiscovery
                 0x0000000000080469                g_bStopZdpAcks
- .rodata        0x000000000008058c       0xa0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans27.ltrans.o
-                0x000000000008058c                s_apsStSceTbl.148286
-                0x00000000000805a0                s_aprIdleStHandleCme.158289
+ .rodata        0x000000000008058c       0xa0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans27.ltrans.o
+                0x000000000008058c                s_apsStSceTbl.148290
+                0x00000000000805a0                s_aprIdleStHandleCme.158293
                 0x00000000000805b4                bRxOnOptimisationTurnedOff
                 0x00000000000805b8                zps_sJoinSceTbl
                 0x00000000000805c4                zps_sActvSceTbl
  .rodata.str1.1
-                0x000000000008062c       0xac C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o
- .rodata        0x00000000000806d8      0x3f8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o
+                0x000000000008062c       0xac C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o
+ .rodata        0x00000000000806d8      0x3f8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o
                 0x00000000000806d8                zps_g_pvApl
                 0x00000000000806dc                au32TimerBaseAddress
- .rodata        0x0000000000080ad0      0x100 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans30.ltrans.o
+ .rodata        0x0000000000080ad0      0x100 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans30.ltrans.o
  .rodata.str1.1
-                0x0000000000080bd0        0x5 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans31.ltrans.o
+                0x0000000000080bd0        0x5 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans31.ltrans.o
                                           0x9 (size before relaxing)
 
 .text           0x0000000000080bd8    0x26d00
  *(.text*)
- .text          0x0000000000080bd8     0x17f0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o
+ .text          0x0000000000080bd8     0x17f0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o
                 0x0000000000080bd8                APP_TIMER_Version_1v0
                 0x0000000000080bd8                vInitialiseApp.3099
- .text          0x00000000000823c8     0x152c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o
+ .text          0x00000000000823c8     0x152c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o
                 0x00000000000823c8                vZCL_EventHandler
- .text          0x00000000000838f4     0x1ad0 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o
+ .text          0x00000000000838f4     0x1ad0 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o
                 0x00000000000838f4                DBG_iUartGetChar
                 0x00000000000839a8                vMMAC_IntHandlerBbc
                 0x00000000000839c2                eBasicTxCompleteHandler
-                0x00000000000839c7                vTxRxTimeout.165234
-                0x0000000000083a24                eSmeAcScBeaconInd.156385
-                0x0000000000083a8a                eSmeASFlBeaconInd.156220
-                0x0000000000083aac                eSmeUDNTScanDcfm.155670
+                0x00000000000839c7                vTxRxTimeout.165238
+                0x0000000000083a24                eSmeAcScBeaconInd.156389
+                0x0000000000083a8a                eSmeASFlBeaconInd.156224
+                0x0000000000083aac                eSmeUDNTScanDcfm.155674
                 0x0000000000083b34                zps_eNwkHandleSmePollDcfm
-                0x0000000000083b5e                eLeaveDataDcfmRemoteLeave.160970
-                0x0000000000083ba7                eSmeGenlScanDcfm.156212
-                0x0000000000083c05                eSmeEdScScanDcfm.156208
-                0x0000000000083dac                eSmeAcScBeaconInd.156228
-                0x0000000000083eb4                eSmeUDNTBeaconInd.156204
-                0x0000000000083ed7                pvZCL_HeapAlloc.part.0.69143.constprop.127
+                0x0000000000083b5e                eLeaveDataDcfmRemoteLeave.160974
+                0x0000000000083ba7                eSmeGenlScanDcfm.156216
+                0x0000000000083c05                eSmeEdScScanDcfm.156212
+                0x0000000000083dac                eSmeAcScBeaconInd.156232
+                0x0000000000083eb4                eSmeUDNTBeaconInd.156208
+                0x0000000000083ed7                pvZCL_HeapAlloc.part.0.69147.constprop.127
                 0x0000000000083f11                vZCL_InitializeClusterInstance.constprop.118
                 0x0000000000083f22                vACI_OptimisedCcmStar.constprop.56
                 0x000000000008410d                zps_eNwkRtDiscMatch.constprop.53
@@ -1492,7 +1492,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x00000000000843ff                eCLD_ColourControl_HSV2xyY.constprop.26
                 0x0000000000084714                eCLD_ColourControlHandleColourModeChange
                 0x00000000000847ba                vMiniMac_ReturnTxBufferCallback
-                0x00000000000847cc                bEnableReceive.165236
+                0x00000000000847cc                bEnableReceive.165240
                 0x000000000008480a                pvHeap_Alloc
                 0x000000000008480d                vMicroIntRestoreState
                 0x0000000000084819                bAHI_WriteEEPROMfixSegmentData
@@ -1501,19 +1501,19 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x00000000000848ec                vAHI_WriteDataIntoEEPROMregister
                 0x000000000008491c                iPDM_WriteSegmentHeaderDataIntoEEPROMsegment
                 0x000000000008494b                u8AHI_WakeTimerFiredStatus
-                0x000000000008495f                vAHI_WakeTimerStop.part.3.167572
-                0x000000000008497f                vAHI_UartReset.part.4.167326
-                0x00000000000849b7                u8AHI_TimerFired.part.9.167139
+                0x000000000008495f                vAHI_WakeTimerStop.part.3.167576
+                0x000000000008497f                vAHI_UartReset.part.4.167330
+                0x00000000000849b7                u8AHI_TimerFired.part.9.167143
                 0x00000000000849d2                vAHI_ClockXtalPull
                 0x00000000000849ef                vAHI_OptimiseWaitStates
                 0x0000000000084a3b                bAHI_GetClkSource
                 0x0000000000084a48                vAHI_SwReset
                 0x0000000000084a79                bAHI_APRegulatorEnabled
                 0x0000000000084a86                bIssueACIcommand
-                0x0000000000084ce8                vTransformKey.isra.0.86457
+                0x0000000000084ce8                vTransformKey.isra.0.86461
                 0x0000000000084d18                MAC_u64GetExtAddr
                 0x0000000000084d33                ZPS_u64NwkNibFindExtAddr
-                0x0000000000084dd9                eCLD_ScenesSetLastConfiguredBy.isra.1.25579
+                0x0000000000084dd9                eCLD_ScenesSetLastConfiguredBy.isra.1.25583
                 0x0000000000084e10                ZPS_u16NwkNibFindNwkAddr
                 0x0000000000084eb1                psSearchForFrameToSend
                 0x0000000000084f08                eMiniMac_FrameInProgress
@@ -1525,8 +1525,8 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000085010                vMiniMac_MLME_SetReq_MinBe
                 0x0000000000085033                zps_psFormatCmdFrameGeneral
                 0x00000000000850bf                zps_eNwkFormStInit
-                0x00000000000850d4                vSendDcfm.156906
-                0x00000000000850f9                bCheckMatchingEntry.156380
+                0x00000000000850d4                vSendDcfm.156910
+                0x00000000000850f9                bCheckMatchingEntry.156384
                 0x000000000008511f                zps_psNwkSlistRemoveFromHead
                 0x0000000000085136                zps_psNwkSlistRemove
                 0x000000000008516e                zps_bNwkMcpsMgrRemoveDescrFromLists
@@ -1536,12 +1536,12 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008523f                ZPS_bNwkSecFindMatSet
                 0x000000000008527b                zps_eNwkRtMatch
                 0x0000000000085388                ZPS_u8NwkCalcNldeReqOverhead
- .text          0x00000000000853c4     0x1418 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o
+ .text          0x00000000000853c4     0x1418 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o
                 0x00000000000853c4                os_u32APP_cbGetTickTimer
                 0x00000000000853cd                os_bAPP_cbSetTickTimerCompare
-                0x00000000000854cc                boIdValueSearchMatch.142892
-                0x0000000000085526                bHandleZdoLeaveRequest.5996
-                0x0000000000085582                vDispatch.77654
+                0x00000000000854cc                boIdValueSearchMatch.142896
+                0x0000000000085526                bHandleZdoLeaveRequest.6000
+                0x0000000000085582                vDispatch.77658
                 0x0000000000085654                OS_ePostMessage
                 0x00000000000857ba                OS_eExitCriticalSection
                 0x000000000008589f                OS_eActivateTask
@@ -1552,22 +1552,22 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000085a7e                iPDM_ReadUserDataFromFileSystemRecord
                 0x0000000000085a9e                u16ZCL_ReadTypeNBO
                 0x0000000000085b53                u16ZCL_APduInstanceReadNBO
-                0x0000000000085ba4                u16ZCL_ReadCommandHeader.part.0.61749
+                0x0000000000085ba4                u16ZCL_ReadCommandHeader.part.0.61753
                 0x0000000000085c1b                u8ZdoBindUnbindServerUnpackApdu
                 0x0000000000085c6a                u16ZCL_APduInstanceWriteNBO
                 0x0000000000085cbe                u16ZCL_WriteCommandHeader
                 0x0000000000085d36                u16ZCL_APduInstanceWriteStringNBO
                 0x0000000000085dfd                u16ZCL_WriteAttributeValueIntoBuffer
-                0x0000000000085e6f                u16ZCL_APduInstanceReadStringNBO.part.3.58983
+                0x0000000000085e6f                u16ZCL_APduInstanceReadStringNBO.part.3.58987
                 0x0000000000085f48                eZCL_GetAttributeTypeSizeFromBuffer
                 0x0000000000085fbf                u16ZCL_GetTxPayloadSize
                 0x0000000000085ff7                vPDM_WriteFileSystemRecordAndSegmentDataIntoEEPROMsegment
                 0x0000000000086032                ZPS_eTsvOpen
                 0x000000000008604f                vZdoServersInit.2824
-                0x00000000000861b5                iPDM_FilterDuplicateAppendedSegmentsOnList.144064
+                0x00000000000861b5                iPDM_FilterDuplicateAppendedSegmentsOnList.144068
                 0x00000000000861f9                vDisplayAddressMapTable
                 0x0000000000086213                vDisplayNT
-                0x000000000008622d                sEZ_GetDiscEntry.11082
+                0x000000000008622d                sEZ_GetDiscEntry.11086
                 0x000000000008626e                u8PDM_CalculateLargestDataRecordStored
                 0x000000000008629f                ZPS_vGetDeviceCurrentData.constprop.128
                 0x000000000008631e                eCLD_GroupsCheckGroupExists
@@ -1576,24 +1576,24 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008648f                zps_vNwkBttMgrInit
                 0x00000000000864bd                ZPS_vNwkNibClearTables
                 0x00000000000865de                PDUM_vInit
-                0x0000000000086699                vAHI_ApConfigure.part.0.166805.constprop.152
+                0x0000000000086699                vAHI_ApConfigure.part.0.166809.constprop.152
                 0x00000000000866c7                vMicroIntEnableOnly.constprop.150
                 0x00000000000866f3                TSV_eStart
                 0x0000000000086743                vMiniMac_MLME_SetReq_PanId
                 0x0000000000086780                vMiniMac_MLME_SetReq_ShortAddr
                 0x000000000008678e                iAHI_WriteDataIntoEEPROMsegment.constprop.132
- .text          0x00000000000867dc     0x19fb C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans4.ltrans.o
-                0x00000000000867dc                vPermitJoinHandleExpiry.151214
+ .text          0x00000000000867dc     0x19fb C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans4.ltrans.o
+                0x00000000000867dc                vPermitJoinHandleExpiry.151218
                 0x00000000000867e5                vNwkMcpsTimerCallback
                 0x00000000000867ff                zps_eSceGenlIllegal
                 0x0000000000086806                zps_eSmeGenlIllegal
                 0x000000000008680d                DBG_vUartFailedAssert
-                0x0000000000086811                psGetVsMcpsBuf.98175
-                0x000000000008681a                psGetMlmeBuf.98168
-                0x0000000000086861                psGetNlmeBuf.80889
-                0x000000000008686b                psGetNldeBuf.80910
-                0x0000000000086875                psGetApsmeBuf.80896
-                0x000000000008687e                psGetApsdeBuf.80903
+                0x0000000000086811                psGetVsMcpsBuf.98179
+                0x000000000008681a                psGetMlmeBuf.98172
+                0x0000000000086861                psGetNlmeBuf.80893
+                0x000000000008686b                psGetNldeBuf.80914
+                0x0000000000086875                psGetApsmeBuf.80900
+                0x000000000008687e                psGetApsdeBuf.80907
                 0x0000000000086997                vLoopbackTimerCallback
                 0x00000000000869c6                zps_eNwkRctMatchNwkAddr
                 0x0000000000086a30                zps_vRemoveNextHop
@@ -1612,46 +1612,46 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000086f1a                zps_vInitBeaconPayload
                 0x0000000000086f96                zps_eNwkDcfmIndPost
                 0x0000000000086fb9                zps_psNwkDcfmIndGetBuf
-                0x0000000000086fdb                eRouteRequestDataDcfm.152390
-                0x000000000008702f                eNldeDataDcfm.150220
+                0x0000000000086fdb                eRouteRequestDataDcfm.152394
+                0x000000000008702f                eNldeDataDcfm.150224
                 0x000000000008705f                zps_vSendNwkStatusInd
                 0x000000000008708f                DBG_vInit
-                0x00000000000870d1                vPDM_ReadBitmapHeader.143749
+                0x00000000000870d1                vPDM_ReadBitmapHeader.143753
                 0x00000000000870f0                psSLISTsearch
                 0x0000000000087130                psSLISTremove
                 0x00000000000871ae                vSLISTaddToTail
                 0x00000000000871cd                psSLISTgetNext
                 0x00000000000871f1                bPDM_ImageBitmapRepairCheck
                 0x0000000000087219                u8PDM_ReadSequenceNumber
-                0x000000000008723c                boSegmentNumberDeleteSearchMatch.143319
+                0x000000000008723c                boSegmentNumberDeleteSearchMatch.143323
                 0x0000000000087257                u8PDM_ReadSegmentDataSize
                 0x000000000008726b                u32PDM_ReadFileSystemHeaderWearCount
-                0x0000000000087281                boSearchForWearCountSubstitute.143635
-                0x00000000000872a7                boSearchForWearCountInsertPoint.142888
+                0x0000000000087281                boSearchForWearCountSubstitute.143639
+                0x00000000000872a7                boSearchForWearCountInsertPoint.142892
                 0x00000000000872c5                vPDM_WriteFileSystemHeaderWearCount
                 0x00000000000872d7                RND_u32GetRand256
                 0x00000000000872f4                RND_u32GetRand
-                0x000000000008731b                u16CalculateFailedTxCount.116210
-                0x0000000000087345                vZdoIeeeAddrServerSendExtendResponse.part.0.102007
-                0x00000000000873a6                vZdoNwkAddrServerSendExtendResponse.part.0.100827
+                0x000000000008731b                u16CalculateFailedTxCount.116214
+                0x0000000000087345                vZdoIeeeAddrServerSendExtendResponse.part.0.102011
+                0x00000000000873a6                vZdoNwkAddrServerSendExtendResponse.part.0.100831
                 0x0000000000087407                zps_bAplZdoServerHandleConfirmAcks
                 0x0000000000087451                zps_bPerformLeaveActionDecider
-                0x0000000000087469                vHandleUpdateDeviceIndication.89979
-                0x0000000000087493                u32GetScanChannels.89966
-                0x00000000000874be                bDuplicateCheck.86335
+                0x0000000000087469                vHandleUpdateDeviceIndication.89983
+                0x0000000000087493                u32GetScanChannels.89970
+                0x00000000000874be                bDuplicateCheck.86339
                 0x00000000000875cb                zps_vAplApsInitDuplicateTable
-                0x00000000000875ee                eHandleRemoveNonBroadcastEndpointsFromGroup.84963
-                0x0000000000087666                eHandleAddEntryToGroupTable.84926
-                0x00000000000876c2                bIsBindTableMatch.84903
-                0x0000000000087713                eRemoveEntryInBindingTable.84931
+                0x00000000000875ee                eHandleRemoveNonBroadcastEndpointsFromGroup.84967
+                0x0000000000087666                eHandleAddEntryToGroupTable.84930
+                0x00000000000876c2                bIsBindTableMatch.84907
+                0x0000000000087713                eRemoveEntryInBindingTable.84935
                 0x0000000000087792                zps_vAplApsInitFragTransmitPool
                 0x00000000000877b3                zps_vAplApsFillAndPostApsAck
                 0x000000000008781d                zps_u8AplApsFreeMsgHandle
                 0x0000000000087887                zps_vAplApsInitSyncMsgPool
                 0x00000000000878bf                zps_vAplApsInitFragReceivePool
-                0x00000000000878e2                vFillDataIndStruct.80752
-                0x0000000000087940                vFillApduErrorEvent.80745
-                0x0000000000087983                bCheckProfile.80740
+                0x00000000000878e2                vFillDataIndStruct.80756
+                0x0000000000087940                vFillApduErrorEvent.80749
+                0x0000000000087983                bCheckProfile.80744
                 0x00000000000879c1                ZPS_bIsGroupPresent
                 0x00000000000879f9                pdum_u16ReadNBO
                 0x0000000000087b5a                PDUM_u16SizeNBO
@@ -1672,12 +1672,12 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008809c                PDUM_eNPduPrependHeaderNBO
                 0x00000000000880f7                PDUM_eNPduInitDescending
                 0x0000000000088112                OS_eCollectMessage
- .text          0x00000000000881d7     0x156c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans5.ltrans.o
+ .text          0x00000000000881d7     0x156c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans5.ltrans.o
                 0x00000000000881d7                DBG_vUartFlush
                 0x0000000000088204                DBG_vUartPutch
                 0x000000000008824a                DBG_vUartInitHardware
-                0x0000000000088387                vPostMlmeDcfmInd.98171
-                0x000000000008842a                bSMBusWait.168227
+                0x0000000000088387                vPostMlmeDcfmInd.98175
+                0x000000000008842a                bSMBusWait.168231
                 0x0000000000088464                psDLISTremove
                 0x00000000000884c6                vDLISTaddToHead
                 0x00000000000884ef                vDLISTaddToTail
@@ -1694,7 +1694,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000088a0d                vMiniMac_NextTransaction
                 0x0000000000088a77                MAC_vPibSetRxOnWhenIdle.constprop.138
                 0x0000000000088a7f                eTransmit
-                0x0000000000088b4d                eBuildAndSend.164887
+                0x0000000000088b4d                eBuildAndSend.164891
                 0x0000000000088bff                vMiniMac_TxComplete
                 0x0000000000088cf0                vTimerFired
                 0x0000000000088dbf                vMiniMac_Init
@@ -1704,12 +1704,12 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008953a                OS_eStopSWTimer
                 0x000000000008965d                vStartStopTimer
                 0x0000000000089688                os_vAPP_RadioRecal
- .text          0x0000000000089743     0x168e C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans6.ltrans.o
-                0x0000000000089743                vSendNetworkReport.147093
+ .text          0x0000000000089743     0x168e C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans6.ltrans.o
+                0x0000000000089743                vSendNetworkReport.147097
                 0x000000000008981d                zps_psNwkInitiateRouteDiscovery
                 0x00000000000899b2                zps_psNwkSendRejoinReqCmd.constprop.12
                 0x0000000000089a30                zps_u8NwkHandleRejoinReq
-                0x0000000000089af9                vContinueRejoin.158761
+                0x0000000000089af9                vContinueRejoin.158765
                 0x0000000000089ba0                zps_psSendNetworkStatusCmd
                 0x0000000000089c0d                zps_vProcessLocalAddrConflict
                 0x0000000000089eb7                zps_eNwkHandleSceRouteRecord
@@ -1717,25 +1717,25 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008a085                zps_psSendFrm
                 0x000000000008a3ef                zps_psSendBroadcastFrm
                 0x000000000008a485                ZPS_vNwkHandleNldeReqRsp
-                0x000000000008a682                eUnfragmentedUnicastTransmission.83487
+                0x000000000008a682                eUnfragmentedUnicastTransmission.83491
                 0x000000000008aa96                zps_eAplSendApsmeCmdFrame
-                0x000000000008ac36                zps_eAplApsmeUpdateDeviceReqRsp.part.4.85060
-                0x000000000008ada8                zps_vAplApsmeCmdMgrRetryTimeout.84895
- .text          0x000000000008add1     0x1635 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans7.ltrans.o
+                0x000000000008ac36                zps_eAplApsmeUpdateDeviceReqRsp.part.4.85064
+                0x000000000008ada8                zps_vAplApsmeCmdMgrRetryTimeout.84899
+ .text          0x000000000008add1     0x1635 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans7.ltrans.o
                 0x000000000008aebd                os_vAPP_vManagePowerOnCount
-                0x000000000008af26                vIncrementFrameCounterInPdm.isra.0.149421
-                0x000000000008b105                vProcessListsForSubmission.148119
+                0x000000000008af26                vIncrementFrameCounterInPdm.isra.0.149425
+                0x000000000008b105                vProcessListsForSubmission.148123
                 0x000000000008b492                zps_vNwkMcpsMgrPost
                 0x000000000008b5c8                zps_eNwkHandleSceRouteRequest
                 0x000000000008bacf                zps_eNwkHandleSceRouteReply
-                0x000000000008bd7a                vHandleRouteDiscoveryExpiry.151946
+                0x000000000008bd7a                vHandleRouteDiscoveryExpiry.151950
                 0x000000000008be73                zps_vNwkHandleCmeLeaveReq
                 0x000000000008bf3c                zps_eNwkHandleSceLeave
                 0x000000000008c0f3                zps_eNwkHandleSdeActvDcfmData
                 0x000000000008c278                vMcpsMgrTimeoutExpiry
                 0x000000000008c2e7                PDM_vDeleteAllDataRecords
                 0x000000000008c364                iPDM_VerifyDataSequenceWithBufferId
- .text          0x000000000008c406     0x124d C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans8.ltrans.o
+ .text          0x000000000008c406     0x124d C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans8.ltrans.o
                 0x000000000008c406                vPDM_MoveAllDataFromListToList
                 0x000000000008c444                vPDM_MoveAllDataWithBufferIdAndStateFromListToList
                 0x000000000008c4cf                vPDM_MoveAllDataToDeAllocList
@@ -1744,11 +1744,11 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008c5be                vPDM_MoveFileRecordFromListToList
                 0x000000000008c5e1                vPDM_MoveRecordToDeAllocList
                 0x000000000008c601                iPDM_ReconstructReplacedDataTable
-                0x000000000008c880                vPDM_ImageBitmapRepair.142807
+                0x000000000008c880                vPDM_ImageBitmapRepair.142811
                 0x000000000008c8e1                vPDM_DeleteAppendedSequence
                 0x000000000008c986                PDM_eSaveRecordData
                 0x000000000008cdbb                zps_vAplSaveRecord
-                0x000000000008ce54                vAplSecRemoveLinkKey.90056
+                0x000000000008ce54                vAplSecRemoveLinkKey.90060
                 0x000000000008ced0                ZPS_vNwkSaveRecord
                 0x000000000008cefc                ZPS_vRemoveEntryFromAddressMap
                 0x000000000008cf45                ZPS_vNwkMacEntriesClear
@@ -1760,7 +1760,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008d0c1                ZPS_vNwkNibSetKeySeqNum
                 0x000000000008d0d4                ZPS_vNwkNibSetDepth
                 0x000000000008d0fd                ZPS_vNwkNibSetUpdateId
-                0x000000000008d10c                vSendNetworkUpdate.147097
+                0x000000000008d10c                vSendNetworkUpdate.147101
                 0x000000000008d23b                ZPS_vNwkNibSetPanId
                 0x000000000008d259                ZPS_vNwkNibSetCapabilityInfo
                 0x000000000008d286                ZPS_vNwkNibSetChannel
@@ -1768,40 +1768,40 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008d2b8                ZPS_vNwkPurgeMacAddressAndRelatedEntries
                 0x000000000008d3cb                ZPS_vNtSetUsedStatus
                 0x000000000008d471                zps_vBuildSortedActvNTList
-                0x000000000008d52f                vFinish.159973
+                0x000000000008d52f                vFinish.159977
                 0x000000000008d585                zps_vTidyActvNtAfterJoin
-                0x000000000008d614                eUnsolicitedRejoinRspDataDcfm.147105
+                0x000000000008d614                eUnsolicitedRejoinRspDataDcfm.147109
                 0x000000000008d63f                ZPS_vNwkSaveSecMat
- .text          0x000000000008d653     0x129d C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans9.ltrans.o
+ .text          0x000000000008d653     0x129d C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans9.ltrans.o
                 0x000000000008d653                zps_bAplZdoNwkAddrServer
                 0x000000000008d7d7                zps_bAplZdoIeeeAddrServer
-                0x000000000008d930                eBeaconReqSent.164881
-                0x000000000008d957                vPostVsMcpsDcfmInd.98178
+                0x000000000008d930                eBeaconReqSent.164885
+                0x000000000008d957                vPostVsMcpsDcfmInd.98182
                 0x000000000008da42                vPDM_AddFileSystemElementToListInAscendingWearCountOrder
                 0x000000000008db50                iPDM_WriteSegmentHeaderAndData
                 0x000000000008dd4c                iPDM_SegmentCopyAndAppendData.constprop.153
-                0x000000000008dda9                eMakeEntryInBindingTable.84949
+                0x000000000008dda9                eMakeEntryInBindingTable.84953
                 0x000000000008de53                zps_vSendJoinDcfm
-                0x000000000008de99                vGiveUp.159536
+                0x000000000008de99                vGiveUp.159540
                 0x000000000008ded1                PDUM_eNPduAllocate
                 0x000000000008df40                vMiniMac_McpsCallback
-                0x000000000008e198                eMcpsTxCompleteHandler.164372
-                0x000000000008e1c6                zps_u8AplApsConstructAndPostLoopBackDataInd.83504
-                0x000000000008e2ff                u8PostUnicastMsgToNHLE.83512
+                0x000000000008e198                eMcpsTxCompleteHandler.164376
+                0x000000000008e1c6                zps_u8AplApsConstructAndPostLoopBackDataInd.83508
+                0x000000000008e2ff                u8PostUnicastMsgToNHLE.83516
                 0x000000000008e338                zps_psAllocateAndFormatMacHdr
                 0x000000000008e63b                zps_psNwkInitCmdFrame
-                0x000000000008e6ba                eSendLinkStatusDataDcfm.part.1.146058
+                0x000000000008e6ba                eSendLinkStatusDataDcfm.part.1.146062
                 0x000000000008e7ec                PDUM_eNPduClone
                 0x000000000008e838                zps_vNwkRemoveConflictedBroadcast
                 0x000000000008e88a                vFreePendingReqDescr
- .text          0x000000000008e8f0     0x139d C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans10.ltrans.o
+ .text          0x000000000008e8f0     0x139d C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans10.ltrans.o
                 0x000000000008e978                vManagePowerOnCountInit
                 0x000000000008e9ed                APP_ZCL_SaveLightLevel
                 0x000000000008ea14                vSaveScenesNVM
                 0x000000000008eaa7                eCLD_GroupsRemoveAllGroups
                 0x000000000008eb59                zps_eAplApsmeUnBindReqRsp
                 0x000000000008ebbf                zps_eAplZdoGroupEndpointRemove
-                0x000000000008ec57                vHandleJoinedNwk.11110
+                0x000000000008ec57                vHandleJoinedNwk.11114
                 0x000000000008ecb2                zps_bNwkFindAddIeeeAddr
                 0x000000000008ee30                zps_psFindKeyDescr
                 0x000000000008ef5c                zps_eAplSecEncryptPacket
@@ -1814,36 +1814,36 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000008f8c4                zps_vNwkHandleCmeDirectJoinReq
                 0x000000000008f943                zps_vJoinInitNtParent
                 0x000000000008fae2                zps_vCheckActvNtForDuplicate
-                0x000000000008fb7f                eSmeOrphScanDcfm.159986
-                0x000000000008fbf7                eCheckAddrConflict.isra.4.147330
+                0x000000000008fb7f                eSmeOrphScanDcfm.159990
+                0x000000000008fbf7                eCheckAddrConflict.isra.4.147334
  .text.unlikely
-                0x000000000008fc8d       0x5f C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans10.ltrans.o
-                0x000000000008fc8d                vInitUnknownNeighbor.148007
+                0x000000000008fc8d       0x5f C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans10.ltrans.o
+                0x000000000008fc8d                vInitUnknownNeighbor.148011
  *fill*         0x000000000008fcec        0x0 00
- .text          0x000000000008fcec     0x14bc C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans11.ltrans.o
-                0x000000000008fcec                vMcpsMgrExpiry.147995
+ .text          0x000000000008fcec     0x14bc C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans11.ltrans.o
+                0x000000000008fcec                vMcpsMgrExpiry.147999
                 0x000000000008fd4b                zps_vNwkHandleCmeRouteDiscoveryReq
                 0x000000000008fdd1                vMiniMac_MlmeCallback
                 0x0000000000090250                vScanBeaconReceived
-                0x000000000009028f                vPostDcfm.164898
-                0x00000000000902fe                vScanNextChannel.164885
+                0x000000000009028f                vPostDcfm.164902
+                0x00000000000902fe                vScanNextChannel.164889
                 0x0000000000090526                vRunningRxCallback
-                0x0000000000090835                ePollReqSent.165489
+                0x0000000000090835                ePollReqSent.165493
                 0x000000000009088e                vCLD_ScenesUpdateSceneValid
-                0x000000000009090e                eCLD_OnOffSceneEventHandler.21967
+                0x000000000009090e                eCLD_OnOffSceneEventHandler.21971
                 0x0000000000090995                eCLD_LevelControlUpdate
                 0x0000000000090c3e                eCLD_LevelControlSetOnOffState.constprop.23
                 0x0000000000090cf7                eCLD_ColourControlUpdate
-                0x000000000009110b                eCLD_ColourControlSceneEventHandler.30948
+                0x000000000009110b                eCLD_ColourControlSceneEventHandler.30952
                 0x0000000000091151                ZPS_vNwkResetOutgoingFrameCounter
- .text          0x00000000000911a8     0x1010 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans12.ltrans.o
+ .text          0x00000000000911a8     0x1010 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans12.ltrans.o
                 0x00000000000911de                os_vAPP_cbEnableTickTimer
                 0x000000000009125e                os_vAPP_cbDisableTickTimer
                 0x00000000000912a2                vRetryCcaFailure
-                0x00000000000912ef                eOrphanNotificationSent.164877
+                0x00000000000912ef                eOrphanNotificationSent.164881
                 0x0000000000091338                ZPS_bSecEncrypt
-                0x00000000000914ee                bHasTimerFired.74866
-                0x0000000000091558                eHandleRemoveBroadcastEndpointsFromGroup.84922
+                0x00000000000914ee                bHasTimerFired.74870
+                0x0000000000091558                eHandleRemoveBroadcastEndpointsFromGroup.84926
                 0x00000000000915b2                eZCL_SetReceiveEventAddressStructure
                 0x0000000000091631                dbg_vPrintfImplNoneVerbose
                 0x0000000000091ab8                vOSError
@@ -1852,7 +1852,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000091b67                eZCLAddReport
                 0x0000000000091e1b                eCLD_ScenesCountScenes
                 0x0000000000091e35                ZPS_bSecDecrypt
-                0x0000000000091f47                boPDM_IsBitmapSaturated.143784
+                0x0000000000091f47                boPDM_IsBitmapSaturated.143788
                 0x0000000000091f90                bPCA9634_WriteRegister
                 0x000000000009200e                bRGB_LED_Off
                 0x0000000000092043                bRGB_LED_SetLevel
@@ -1860,7 +1860,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x00000000000920e1                bRGB_LED_On
                 0x00000000000920f5                vRGBLight_SetLevels
                 0x000000000009216c                APP_vHandleIdentify
- .text          0x00000000000921b8     0x194f C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans13.ltrans.o
+ .text          0x00000000000921b8     0x194f C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans13.ltrans.o
                 0x00000000000921b8                OS_eEnterCriticalSection
                 0x0000000000092280                PDUM_eNPduFree
                 0x00000000000922ed                zps_vNwkMcpsMgrFreeReqDescr
@@ -1868,7 +1868,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000092362                PDUM_hAPduAllocateAPduInstance
                 0x00000000000923d6                hZCL_AllocateAPduInstance
                 0x0000000000092412                zps_eAplZdoSendZdpResponse
-                0x000000000009245b                bSendResponse.115021
+                0x000000000009245b                bSendResponse.115025
                 0x000000000009249e                PDUM_eAPduFreeAPduInstance
                 0x00000000000927dd                zps_bAplZdoMatchDescServer
                 0x00000000000927f1                zps_bAplZdoNodeDescServer
@@ -1878,15 +1878,15 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000092dc4                zps_bAplZdoSystemServerDiscoveryServer
                 0x0000000000092e4d                zps_bAplZdoMgmtLqiServer
                 0x0000000000093079                zps_bAplZdoMgmtRtgServer
-                0x00000000000931bf                PDM_eReadDataFromRecord.part.0.142131
+                0x00000000000931bf                PDM_eReadDataFromRecord.part.0.142135
                 0x0000000000093242                PDM_eReadDataFromRecord
-                0x0000000000093262                vLoadAplRecord.90006
-                0x0000000000093290                vLoadNwkRecord.148987
+                0x0000000000093262                vLoadAplRecord.90010
+                0x0000000000093290                vLoadNwkRecord.148991
                 0x00000000000932c8                ZPS_eTsvStart
                 0x0000000000093323                zps_eNwkHandleSceNwkUpdate
-                0x0000000000093347                vProcessTimedList.148023
+                0x0000000000093347                vProcessTimedList.148027
                 0x000000000009338d                zps_vNwkMcpsMgrPostTimed
-                0x00000000000933a0                vNwkBttTimerExpiry.154470
+                0x00000000000933a0                vNwkBttTimerExpiry.154474
                 0x00000000000934bf                vNwkMcpsSendTimedDfcm
                 0x0000000000093504                zps_vAplAfPostTimerEvent
                 0x0000000000093581                zps_vExpireOldRoutes
@@ -1898,59 +1898,59 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000000093884                zps_eAplZdoBdrmRequestSend
                 0x0000000000093921                zps_vNwkHandleCmePermitJoinReq
                 0x0000000000093989                zps_eNwkBtrMatch
-                0x0000000000093a86                zps_vAplApsStopPollTimer.part.3.83391
+                0x0000000000093a86                zps_vAplApsStopPollTimer.part.3.83395
  *fill*         0x0000000000093b07        0x1 00
- .text          0x0000000000093b08     0x1614 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans14.ltrans.o
+ .text          0x0000000000093b08     0x1614 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans14.ltrans.o
                 0x0000000000093d78                zps_eNwkHandleSceNwkStatus
                 0x00000000000940d5                zps_eNwkHandleSmeAssocInd
                 0x00000000000940f7                zps_eNwkHandleSceRejnRequest
-                0x0000000000094177                vSdeHandleMcpsDataInd.148091
+                0x0000000000094177                vSdeHandleMcpsDataInd.148095
                 0x0000000000094dff                ZPS_vNwkNibCheckAndUpdateAddresses
                 0x0000000000094e96                zps_bAplZdoDeviceAnnceServer
- .text          0x000000000009511c     0x1114 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans15.ltrans.o
-                0x000000000009511c                vAplSecAuthPollTimerExpiry.89956
-                0x000000000009516e                vAplSecAuthTimerExpiry.89960
-                0x0000000000095238                vChangeChannelTimerExpiry.116202
-                0x000000000009529b                eLeaveReset.160965
-                0x0000000000095306                eLeaveDataDcfmLocalLeave.160975
-                0x0000000000095380                eJoinNetwork.90019
-                0x000000000009542b                eDiscoverNetworks.90025
-                0x0000000000095481                eStartNetworkDiscovery.90031
-                0x00000000000954e5                eStartRouter.90257
-                0x00000000000955b7                vPostApsmeDcfmInd.80899
+ .text          0x000000000009511c     0x1114 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans15.ltrans.o
+                0x000000000009511c                vAplSecAuthPollTimerExpiry.89960
+                0x000000000009516e                vAplSecAuthTimerExpiry.89964
+                0x0000000000095238                vChangeChannelTimerExpiry.116206
+                0x000000000009529b                eLeaveReset.160969
+                0x0000000000095306                eLeaveDataDcfmLocalLeave.160979
+                0x0000000000095380                eJoinNetwork.90023
+                0x000000000009542b                eDiscoverNetworks.90029
+                0x0000000000095481                eStartNetworkDiscovery.90035
+                0x00000000000954e5                eStartRouter.90261
+                0x00000000000955b7                vPostApsmeDcfmInd.80903
                 0x0000000000095a0c                zps_vAplAfPostEvent
-                0x0000000000095cf8                vPostApsdeDcfmInd.80906
+                0x0000000000095cf8                vPostApsdeDcfmInd.80910
                 0x0000000000095f1c                zps_vHandleApsdeDataFragIndNotSupported
                 0x0000000000095f84                zps_eAplZdoNlmeleaveWrapper
                 0x0000000000095ffc                zps_bAplZdoMgmtLeaveServer
                 0x000000000009617c                zps_eAplZdoNlmePermitJoiningWrapper
                 0x00000000000961a4                zps_bAplZdoPermitJoiningServer
- .text          0x0000000000096230     0x1214 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans16.ltrans.o
+ .text          0x0000000000096230     0x1214 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans16.ltrans.o
                 0x0000000000096230                os_vAPP_ZPR_Light_Task
- .text          0x0000000000097444     0x1160 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans17.ltrans.o
+ .text          0x0000000000097444     0x1160 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans17.ltrans.o
                 0x00000000000974ed                zps_eNwkHandleSmeOrphanInd
-                0x00000000000974fd                vStartScanTimerExpiry.116206
+                0x00000000000974fd                vStartScanTimerExpiry.116210
                 0x0000000000097539                zps_vAplApsPollTimer
-                0x000000000009762b                vPostNlmeDcfmInd.80892
+                0x000000000009762b                vPostNlmeDcfmInd.80896
                 0x0000000000097f47                zps_eNwkSendJoinResponse
                 0x00000000000980fe                zps_eAplZdoStartStack
                 0x0000000000098237                vEZ_EZModeNWKJoinHandler
- .text          0x00000000000985a4     0x1308 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans18.ltrans.o
-                0x0000000000098797                vPostNldeDcfmInd.80913
-                0x0000000000099230                vBbcIntHandler.163932
+ .text          0x00000000000985a4     0x1308 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans18.ltrans.o
+                0x0000000000098797                vPostNldeDcfmInd.80917
+                0x0000000000099230                vBbcIntHandler.163936
                 0x00000000000994f9                os_vzps_isrMAC
-                0x0000000000099538                eAssocRespSent.164240
-                0x0000000000099636                eRejoinRspDataDcfm.158765
+                0x0000000000099538                eAssocRespSent.164244
+                0x0000000000099636                eRejoinRspDataDcfm.158769
                 0x0000000000099705                zps_eNwkHandleSmeCommStatusInd
                 0x00000000000997b9                zps_vCleanUnAuthenHandleExpiry
                 0x000000000009984e                zps_vNwkHandleCmeSyncReq
- .text          0x00000000000998ac     0x1104 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans19.ltrans.o
+ .text          0x00000000000998ac     0x1104 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans19.ltrans.o
                 0x0000000000099967                vZdoBdrmSendNextTimedRequest
                 0x0000000000099e07                eZCL_TransmitDataRequest
                 0x000000000009a260                eZCL_SendDefaultResponse
                 0x000000000009a35f                vZCL_HandleAttributesReadResponse
                 0x000000000009a56a                vReportTimerClickCallback
- .text          0x000000000009a9b0     0x11ac C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans20.ltrans.o
+ .text          0x000000000009a9b0     0x11ac C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans20.ltrans.o
                 0x000000000009a9b0                zps_bAplZdoBindUnbindServer
                 0x000000000009ad77                zps_bAplZdoDefaultServer
                 0x000000000009afd8                zps_eZdpSimpleDescResponse
@@ -1965,43 +1965,43 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000009b709                zps_eZdpIeeeAddrResponse
                 0x000000000009b7ec                zps_bAplZdoMgmtNWKUpdateServer
  *fill*         0x000000000009bb5c        0x0 00
- .text          0x000000000009bb5c     0x1298 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans21.ltrans.o
+ .text          0x000000000009bb5c     0x1298 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans21.ltrans.o
                 0x000000000009bd14                vSendMlmeCommStatusFromTxFrame
                 0x000000000009bd6a                MAC_vHandleMlmeVsReqRsp.constprop.141
-                0x000000000009c340                vHandleNwkLocalUpdateAfterBcast.147110
-                0x000000000009c394                vHandleNwkRemoteUpdateAfterBcast.147101
+                0x000000000009c340                vHandleNwkLocalUpdateAfterBcast.147114
+                0x000000000009c394                vHandleNwkRemoteUpdateAfterBcast.147105
                 0x000000000009c3e8                ZPS_pvNwkCtor.constprop.136
                 0x000000000009c98e                ZPS_vNwkHandleNlmeReqRsp
-                0x000000000009ca0b                eSmeAcScScanDcfm.156917
+                0x000000000009ca0b                eSmeAcScScanDcfm.156921
                 0x000000000009cd48                zps_vNwkHandleCmeActvStartRouterReq
- .text          0x000000000009cdf4     0x1094 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o
+ .text          0x000000000009cdf4     0x1094 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o
                 0x000000000009cdf4                os_vZCL_Task
                 0x000000000009ce1a                os_vOTA_MsTask
                 0x000000000009ce44                os_vTick_Task
                 0x000000000009d50e                eZCL_CustomCommandSend.constprop.24
                 0x000000000009da0c                eCLD_GroupsCommandHandler
- .text          0x000000000009de88      0xf29 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans23.ltrans.o
+ .text          0x000000000009de88      0xf29 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans23.ltrans.o
                 0x000000000009de88                eZCL_CustomCommandReceive
                 0x000000000009e016                eCLD_ColourControlCommandHandler
                 0x000000000009ec1f                eCLD_OnOffCommandHandler
                 0x000000000009ed42                eCLD_BasicCommandHandler
- .text          0x000000000009edb1     0x1330 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans24.ltrans.o
-                0x000000000009edb1                os_bDummyMemberCheck.77664
-                0x000000000009edb6                os_vDefaultErrorHook.77660
-                0x000000000009edb9                bCLD_ScenesSearchForScene.26102
-                0x000000000009edec                eCLD_LevelControlSceneEventHandler.20527
+ .text          0x000000000009edb1     0x1330 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans24.ltrans.o
+                0x000000000009edb1                os_bDummyMemberCheck.77668
+                0x000000000009edb6                os_vDefaultErrorHook.77664
+                0x000000000009edb9                bCLD_ScenesSearchForScene.26106
+                0x000000000009edec                eCLD_LevelControlSceneEventHandler.20531
                 0x000000000009ee32                DriverBulb_vSetTunableWhiteColourTemperature
                 0x000000000009ee35                os_vAPP_ButtonsScanTask
-                0x000000000009ee38                APP_ZCL_cbGeneralCallback.7980
+                0x000000000009ee38                APP_ZCL_cbGeneralCallback.7984
                 0x000000000009ee68                vfExtendedStatusCallBack.3096
                 0x000000000009ee6b                os_bStrictCheck.1358
-                0x000000000009f157                bCLD_GroupsSearchForGroup.17883
-                0x000000000009f17c                eExpireSWTimer.77673
-                0x000000000009f1e7                vEnterErrorHook.77656
+                0x000000000009f157                bCLD_GroupsSearchForGroup.17887
+                0x000000000009f17c                eExpireSWTimer.77677
+                0x000000000009f1e7                vEnterErrorHook.77660
                 0x000000000009f20e                OS_eGetSWTimerStatus
                 0x000000000009f250                eZCL_DoesAttributeHaveReportableChange
                 0x000000000009f26d                eZCL_GetAttributeReportableEntry
-                0x000000000009f325                vZCL_AlignNumericAttributeValueTo64.74335
+                0x000000000009f325                vZCL_AlignNumericAttributeValueTo64.74339
                 0x000000000009f434                eZCL_BuildClientTransmitAddressStructure
                 0x000000000009f465                bZCL_CheckManufacturerSpecificAttributeFlagMatch
                 0x000000000009f483                eZCL_SearchForAttributeEntry
@@ -2011,7 +2011,7 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000009f632                pvZCL_GetAttributePointer
                 0x000000000009f6a8                vCLD_ScenesGenerateIndividualAttributeCallback
                 0x000000000009f702                eZCL_StoreChangeAttributeValue
-                0x000000000009f7a1                u16ZCL_WriteTypeNBO.part.0.58850
+                0x000000000009f7a1                u16ZCL_WriteTypeNBO.part.0.58854
                 0x000000000009f816                u16ZCL_GetStringStructureSize
                 0x000000000009f853                u16ZCL_GetStringAttributeTypeSizeFromBuffer
                 0x000000000009f8c4                u16ZCL_GetStringSizeAndBufferFromStructure
@@ -2024,22 +2024,22 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000009fb2b                eZCL_SearchForEPentry
                 0x000000000009fb67                eZCL_FindCluster
                 0x000000000009fbb8                eCLD_GroupsSetIdentifying
-                0x000000000009fbdd                vCLD_IdentifyTimerClickCallback.18946
+                0x000000000009fbdd                vCLD_IdentifyTimerClickCallback.18950
                 0x000000000009fc51                eCLD_LevelControlClusterIsPresent
                 0x000000000009fc6a                eZCL_SearchForEPentryAndCheckManufacturerId
                 0x000000000009fca8                vZCL_PassEventToUser
                 0x000000000009fcd5                vCLD_ColourControl_CCT2xyY
-                0x000000000009fdbb                bCLD_ColourControl_NumberIsValid.32406
-                0x000000000009fdda                eCLD_ColourControl_xyY2XYZ.32410
-                0x000000000009fe5c                vCLD_ColourControl_XYZ2RGB.32397
+                0x000000000009fdbb                bCLD_ColourControl_NumberIsValid.32410
+                0x000000000009fdda                eCLD_ColourControl_xyY2XYZ.32414
+                0x000000000009fe5c                vCLD_ColourControl_XYZ2RGB.32401
                 0x000000000009ff7c                eCLD_ColourControl_GetRGB
                 0x00000000000a0049                vAPP_ZCL_DeviceSpecific_Init
-                0x00000000000a00b0                vLI_InitVar.3212
+                0x00000000000a00b0                vLI_InitVar.3216
  *fill*         0x00000000000a00e1        0x3 00
- .text          0x00000000000a00e4      0xd48 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans25.ltrans.o
+ .text          0x00000000000a00e4      0xd48 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans25.ltrans.o
                 0x00000000000a00e4                eCLD_ScenesCommandHandler
                 0x00000000000a0d20                eCLD_IdentifyCommandHandler
- .text          0x00000000000a0e2c      0xbe8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans26.ltrans.o
+ .text          0x00000000000a0e2c      0xbe8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans26.ltrans.o
                 0x00000000000a0e2c                os_vzps_taskZPS
                 0x00000000000a1049                ZPS_vAplHandleApsdeReqRsp
                 0x00000000000a1463                zps_eAplZdpApsdeReqInternal
@@ -2050,20 +2050,20 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x00000000000a19b1                zps_eZdpUnbindResponse
                 0x00000000000a19d2                zps_eZdpMgmtLeaveResponse
                 0x00000000000a19f3                zps_eZdpMgmtPermitJoiningResponse
- .text          0x00000000000a1a14      0xae8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans27.ltrans.o
+ .text          0x00000000000a1a14      0xae8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans27.ltrans.o
                 0x00000000000a1a4d                zps_vNwkHandleCmeIdleNwkFormReq
                 0x00000000000a1b53                zps_vNwkHandleCmeNwkDiscReq
                 0x00000000000a1bcd                zps_vNwkHandleCmeEdScanReq
                 0x00000000000a1d2e                zps_eNwkHandleSmeBeaconNotifyInd
                 0x00000000000a1e30                zps_vNwkHandleCmeNwkJoinReq
                 0x00000000000a2108                zps_vNwkHandleCmeNwkActvJoinReq
-                0x00000000000a2114                eSmeEdScScanDcfm.156910
-                0x00000000000a22e3                vHandleRejoinExpiry.159532
+                0x00000000000a2114                eSmeEdScScanDcfm.156914
+                0x00000000000a22e3                vHandleRejoinExpiry.159536
                 0x00000000000a232c                zps_eRejoinDataDcfm
-                0x00000000000a235f                eSmeAsocAssocDcfm.160140
-                0x00000000000a23e3                eSmeRjPCPollDcfm.160136
- .text          0x00000000000a24fc      0x845 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o
-                0x00000000000a24fc                APP_ZCL_cbEndpointCallback.7977
+                0x00000000000a235f                eSmeAsocAssocDcfm.160144
+                0x00000000000a23e3                eSmeRjPCPollDcfm.160140
+ .text          0x00000000000a24fc      0x845 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o
+                0x00000000000a24fc                APP_ZCL_cbEndpointCallback.7981
                 0x00000000000a26f4                AppWarmStart
                 0x00000000000a270e                AppColdStart
                 0x00000000000a2b2e                os_vUnclaimedInterrupt
@@ -2079,12 +2079,12 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x00000000000a2c3b                os_vAPP_isrStackOverflowException
                 0x00000000000a2c51                os_vAPP_isrTickTimer
  *fill*         0x00000000000a2d41        0x3 00
- .text          0x00000000000a2d44      0x78c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans29.ltrans.o
+ .text          0x00000000000a2d44      0x78c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans29.ltrans.o
                 0x00000000000a2d44                eCLD_LevelControlCommandHandler
                 0x00000000000a3040                vZCL_HandleAttributesWriteRequest
- .text          0x00000000000a34d0      0x851 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans30.ltrans.o
+ .text          0x00000000000a34d0      0x851 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans30.ltrans.o
                 0x00000000000a34d0                eHA_RegisterColourDimmableLightEndPoint.constprop.107
- .text          0x00000000000a3d21      0x1fd C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans31.ltrans.o
+ .text          0x00000000000a3d21      0x1fd C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans31.ltrans.o
                 0x00000000000a3e24                zps_bAplZdoZdoClient
  .text          0x00000000000a3f1e       0x25 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
                 0x00000000000a3f1e                memcmp
@@ -2201,29 +2201,29 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
 .data           0x000000000400004c      0x940 load address 0x00000000000a78d8
                 0x000000000400004c                _ram_data_start = ABSOLUTE (.)
  *(.data*)
- .data          0x000000000400004c       0x1c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o
-                0x000000000400004c                u32DefaultChannelMask.11665
+ .data          0x000000000400004c       0x1c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o
+                0x000000000400004c                u32DefaultChannelMask.11669
                 0x0000000004000050                u8MiniMacConfig_MaxConcurrentAssocResponses
                 0x0000000004000054                psShadowRxBuffer
- .data          0x0000000004000068      0x148 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o
+ .data          0x0000000004000068      0x148 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o
                 0x0000000004000068                u32HeapStart
                 0x000000000400006c                asCLD_ColourControlCCTlist
- .data          0x00000000040001b0        0x1 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans5.ltrans.o
+ .data          0x00000000040001b0        0x1 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans5.ltrans.o
  *fill*         0x00000000040001b1        0x1 00
- .data          0x00000000040001b2        0x6 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans9.ltrans.o
- .data          0x00000000040001b8        0x8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans10.ltrans.o
-                0x00000000040001b8                bCanLoopback.83740
- .data          0x00000000040001c0        0x1 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans12.ltrans.o
+ .data          0x00000000040001b2        0x6 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans9.ltrans.o
+ .data          0x00000000040001b8        0x8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans10.ltrans.o
+                0x00000000040001b8                bCanLoopback.83744
+ .data          0x00000000040001c0        0x1 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans12.ltrans.o
  *fill*         0x00000000040001c1        0x1 00
- .data          0x00000000040001c2        0xa C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans16.ltrans.o
-                0x00000000040001c2                u16ActiveEDAddress.8970
- .data          0x00000000040001cc        0xc C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o
- .data          0x00000000040001d8       0xa4 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans24.ltrans.o
+ .data          0x00000000040001c2        0xa C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans16.ltrans.o
+                0x00000000040001c2                u16ActiveEDAddress.8974
+ .data          0x00000000040001cc        0xc C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o
+ .data          0x00000000040001d8       0xa4 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans24.ltrans.o
                 0x00000000040001d8                s_asapduZCLInstances
                 0x0000000004000250                s_asapduZDPInstances
- .data          0x000000000400027c        0x1 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans26.ltrans.o
+ .data          0x000000000400027c        0x1 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans26.ltrans.o
  *fill*         0x000000000400027d        0x3 00
- .data          0x0000000004000280      0x630 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o
+ .data          0x0000000004000280      0x630 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o
                 0x0000000004000280                os_Mutex_mutexMAC
                 0x0000000004000288                os_Mutex_mutexZPS
                 0x0000000004000290                s_sApl.2880
@@ -2251,11 +2251,11 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000400060c                os_Task_APP_ButtonsScanTask
                 0x0000000004000618                os_Task_APP_vManagePowerOnCount
                 0x0000000004000624                os_SWTimer_APP_cntrTickTimer_OTA_MsTimer
-                0x0000000004000640                u8AhiBaudRate.144250
-                0x0000000004000644                sLI_Vars.3239
-                0x0000000004000684                s_prbMemberCheck.77780
-                0x0000000004000688                s_prvErrorHook.77778
- .data          0x00000000040008b0       0xc4 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans30.ltrans.o
+                0x0000000004000640                u8AhiBaudRate.144254
+                0x0000000004000644                sLI_Vars.3243
+                0x0000000004000684                s_prbMemberCheck.77784
+                0x0000000004000688                s_prvErrorHook.77782
+ .data          0x00000000040008b0       0xc4 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans30.ltrans.o
  .data.s_asAPduPool
                 0x0000000004000974       0x18 c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/ColorDimmableLight/Build/pdum_apdu.o
                 0x0000000004000974                pdum_apduZDP
@@ -2269,95 +2269,95 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x000000000400098c                _bss_start = ABSOLUTE (.)
  *(.bss*)
  *fill*         0x000000000400098c        0x4 00
- .bss           0x0000000004000990      0xa60 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o
-                0x0000000004000990                gu16NumberOfSegments.167935
+ .bss           0x0000000004000990      0xa60 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o
+                0x0000000004000990                gu16NumberOfSegments.167939
                 0x0000000004000994                psPDM_Common
-                0x0000000004000998                pfExtendedStatusCallBack.146620
-                0x000000000400099c                sPowerOnCounts.3969
-                0x00000000040009a0                sScenesCustomData.10034
-                0x0000000004000b60                s_u32x.141904
-                0x0000000004000b64                s_prExpireFn.169111
-                0x0000000004000b68                s_hMutex.169110
+                0x0000000004000998                pfExtendedStatusCallBack.146624
+                0x000000000400099c                sPowerOnCounts.3973
+                0x00000000040009a0                sScenesCustomData.10038
+                0x0000000004000b60                s_u32x.141908
+                0x0000000004000b64                s_prExpireFn.169115
+                0x0000000004000b68                s_hMutex.169114
                 0x0000000004000b6c                pvRxStore
                 0x0000000004000b70                pvTxStore
                 0x0000000004000b74                g_pvAplHandle
                 0x0000000004000b78                s_hMacMutex
-                0x0000000004000b7c                s_sDcfmIndMgr.168875
+                0x0000000004000b7c                s_sDcfmIndMgr.168879
                 0x0000000004000b84                prAppMlmeGetBuffer
                 0x0000000004000b88                prAppMlmeCallback
                 0x0000000004000b8c                u8MiniMac_RunTimeOptions
                 0x0000000004000b90                sMiniMacPib
-                0x0000000004000c2c                sBeaconFilter.11661
+                0x0000000004000c2c                sBeaconFilter.11665
                 0x0000000004000c38                psZCL_Common
-                0x0000000004000c40                sEZModeData.11659
-                0x0000000004000cc8                bIntEnableFlag.166864
+                0x0000000004000c40                sEZModeData.11663
+                0x0000000004000cc8                bIntEnableFlag.166868
                 0x0000000004000ccc                prvZdoLeaveActionDecider
                 0x0000000004000cd0                sDeviceDesc
                 0x0000000004000cd4                s_groupTablePdmStorage.3027
- .bss           0x00000000040013f0        0xc C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o
- .bss           0x00000000040013fc      0x790 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o
- .bss           0x0000000004001b8c       0x40 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans4.ltrans.o
- .bss           0x0000000004001bcc       0x2c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans5.ltrans.o
-                0x0000000004001bcc                prIntHandler.166578
+ .bss           0x00000000040013f0        0xc C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o
+ .bss           0x00000000040013fc      0x790 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o
+ .bss           0x0000000004001b8c       0x40 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans4.ltrans.o
+ .bss           0x0000000004001bcc       0x2c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans5.ltrans.o
+                0x0000000004001bcc                prIntHandler.166582
                 0x0000000004001bd0                psTimerServerList
- .bss           0x0000000004001bf8       0x48 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans6.ltrans.o
+ .bss           0x0000000004001bf8       0x48 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans6.ltrans.o
                 0x0000000004001bf8                psFreeMsgListHead
- .bss           0x0000000004001c40        0x3 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans7.ltrans.o
-                0x0000000004001c40                bPreInitFunctionCalled.3970
+ .bss           0x0000000004001c40        0x3 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans7.ltrans.o
+                0x0000000004001c40                bPreInitFunctionCalled.3974
                 0x0000000004001c41                bIgnoreBroadcast
  *fill*         0x0000000004001c43        0x1 00
- .bss           0x0000000004001c44       0x30 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans8.ltrans.o
+ .bss           0x0000000004001c44       0x30 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans8.ltrans.o
                 0x0000000004001c44                a16NwkPdmRecordSizes
                 0x0000000004001c50                apvAplPdmRecordsAddress
                 0x0000000004001c68                au16AplPdmRecordsSize
- .bss           0x0000000004001c74       0x44 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans9.ltrans.o
-                0x0000000004001c74                u8MaxNpdu.78061
-                0x0000000004001c75                u8Count.78060
-                0x0000000004001c78                s_psFreeListHead.78059
-                0x0000000004001c7c                s_hMutex.78058
- .bss           0x0000000004001cb8        0x1 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans10.ltrans.o
- .bss           0x0000000004001cb9        0x1 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans11.ltrans.o
-                0x0000000004001cb9                bResetScanTimer.165134
+ .bss           0x0000000004001c74       0x44 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans9.ltrans.o
+                0x0000000004001c74                u8MaxNpdu.78065
+                0x0000000004001c75                u8Count.78064
+                0x0000000004001c78                s_psFreeListHead.78063
+                0x0000000004001c7c                s_hMutex.78062
+ .bss           0x0000000004001cb8        0x1 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans10.ltrans.o
+ .bss           0x0000000004001cb9        0x1 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans11.ltrans.o
+                0x0000000004001cb9                bResetScanTimer.165138
  *fill*         0x0000000004001cba        0x2 00
- .bss           0x0000000004001cbc        0x8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans12.ltrans.o
-                0x0000000004001cbc                vFlushFn.144194
-                0x0000000004001cc0                vPutchFn.144189
- .bss           0x0000000004001cc4       0x18 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans13.ltrans.o
-                0x0000000004001cc4                s_psCurrentTask.77774
-                0x0000000004001cc8                s_asAPduPool.78177
-                0x0000000004001ccc                s_hMutex.78178
-                0x0000000004001cd0                s_psNPduPoolEnd.78063
-                0x0000000004001cd4                s_psNPduPoolStart.78062
- .bss           0x0000000004001cdc       0x28 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans14.ltrans.o
+ .bss           0x0000000004001cbc        0x8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans12.ltrans.o
+                0x0000000004001cbc                vFlushFn.144198
+                0x0000000004001cc0                vPutchFn.144193
+ .bss           0x0000000004001cc4       0x18 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans13.ltrans.o
+                0x0000000004001cc4                s_psCurrentTask.77778
+                0x0000000004001cc8                s_asAPduPool.78181
+                0x0000000004001ccc                s_hMutex.78182
+                0x0000000004001cd0                s_psNPduPoolEnd.78067
+                0x0000000004001cd4                s_psNPduPoolStart.78066
+ .bss           0x0000000004001cdc       0x28 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans14.ltrans.o
  *fill*         0x0000000004001d04        0x4 00
- .bss           0x0000000004001d08       0x48 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans17.ltrans.o
+ .bss           0x0000000004001d08       0x48 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans17.ltrans.o
                 0x0000000004001d08                psBeaconFilter
-                0x0000000004001d0c                bRejoin.11663
+                0x0000000004001d0c                bRejoin.11667
                 0x0000000004001d10                sRecoverDevice
- .bss           0x0000000004001d50       0x88 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans18.ltrans.o
+ .bss           0x0000000004001d50       0x88 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans18.ltrans.o
                 0x0000000004001d50                aprTimerCallback
                 0x0000000004001d70                au32TimerCounter
                 0x0000000004001d90                sMiniMacInternal
-                0x0000000004001dc8                s_psVsMcpsDcfmInd.99477
-                0x0000000004001dcc                s_psMacDcfmInd.99476
+                0x0000000004001dc8                s_psVsMcpsDcfmInd.99481
+                0x0000000004001dcc                s_psMacDcfmInd.99480
                 0x0000000004001dd0                psActiveMsgListHead
- .bss           0x0000000004001dd8       0x18 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans19.ltrans.o
+ .bss           0x0000000004001dd8       0x18 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans19.ltrans.o
                 0x0000000004001dd8                psServerContextCopy
- .bss           0x0000000004001df0        0x8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans20.ltrans.o
+ .bss           0x0000000004001df0        0x8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans20.ltrans.o
                 0x0000000004001df0                bDefaultServerIgnoreHandleMgmtUpdate
- .bss           0x0000000004001df8        0xc C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans21.ltrans.o
-                0x0000000004001df8                u8ScanBeaconsSeen.168914
+ .bss           0x0000000004001df8        0xc C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans21.ltrans.o
+                0x0000000004001df8                u8ScanBeaconsSeen.168918
                 0x0000000004001dfc                sThisDeviceMacAddr
- .bss           0x0000000004001e04        0x8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o
+ .bss           0x0000000004001e04        0x8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o
                 0x0000000004001e04                zps_psNwk
- .bss           0x0000000004001e0c      0x51c C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans24.ltrans.o
- .bss           0x0000000004002328        0x8 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans26.ltrans.o
+ .bss           0x0000000004001e0c      0x51c C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans24.ltrans.o
+ .bss           0x0000000004002328        0x8 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans26.ltrans.o
                 0x0000000004002328                u32DataQueueCount
                 0x000000000400232c                s_u16ActivityCounter
- .bss           0x0000000004002330       0x28 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans27.ltrans.o
+ .bss           0x0000000004002330       0x28 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans27.ltrans.o
                 0x0000000004002330                sMiniMacPhyPib
  *fill*         0x0000000004002358        0x8 00
- .bss           0x0000000004002360     0x2250 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o
+ .bss           0x0000000004002360     0x2250 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o
                 0x0000000004002360                s_sDefaultServerContext.2942
                 0x0000000004002364                s_sMgmtRtgServerContext.2873
                 0x0000000004002368                s_sPermitJoiningServerContext.2874
@@ -2377,26 +2377,26 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
                 0x0000000004002494                s_sActiveEpServerContext.2932
                 0x0000000004002498                s_sDeviceAnnceServerContext.2931
                 0x0000000004002498                s_sZdoClientContext.2930
-                0x00000000040024a0                asSavedReports.9075
+                0x00000000040024a0                asSavedReports.9079
                 0x0000000004002580                sIdEffect
                 0x000000000400258c                u16LevelChangeTick
                 0x0000000004002590                sLight
                 0x0000000004002d20                u32OTA_Time_Ms
                 0x0000000004002d24                s_u32LastExpiredTime.3070
                 0x0000000004002d28                s_u32CompareTime.3069
-                0x0000000004002d2c                s_prvCurrentISR.77781
-                0x0000000004002d30                s_bWakeTimerActive.77852
-                0x0000000004002d34                psNextWake.77851
-                0x0000000004002d38                u8AhiUart.144249
+                0x0000000004002d2c                s_prvCurrentISR.77785
+                0x0000000004002d30                s_bWakeTimerActive.77856
+                0x0000000004002d34                psNextWake.77855
+                0x0000000004002d38                u8AhiUart.144253
                 0x0000000004002d39                u8SetGreenLEDLevel
                 0x0000000004002d3a                u8SetBlueLEDLevel
                 0x0000000004002d3b                u8SetRedLEDLevel
-                0x0000000004002d3c                s_u32CurrentPriorityMask.77773
-                0x0000000004002d40                s_u8OSLevelIPL.77777
-                0x0000000004002d44                s_asTasks.77776
-                0x0000000004002d48                s_u32PendingQueue.77775
-                0x0000000004002d4c                bBulbOn.11744
- .bss           0x00000000040045b0       0x28 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans30.ltrans.o
+                0x0000000004002d3c                s_u32CurrentPriorityMask.77777
+                0x0000000004002d40                s_u8OSLevelIPL.77781
+                0x0000000004002d44                s_asTasks.77780
+                0x0000000004002d48                s_u32PendingQueue.77779
+                0x0000000004002d4c                bBulbOn.11748
+ .bss           0x00000000040045b0       0x28 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans30.ltrans.o
  .bss.dontinitinboot
                 0x00000000040045d8       0x40 c:/NXP/bstudio_nxp/sdk/JN-SW-4168/Components/Library\libBoot_JN516x.a(ExceptionHandler.o)
                 0x00000000040045d8                isr_handlers
@@ -2432,38 +2432,38 @@ LOAD c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/
 OUTPUT(c:/NXP/bstudio_nxp/workspace/JN-AN-1189-ZigBee-HA-Demo/ColorDimmableLight/Build/ColorDimmableLight_JN5169_DR1175_LED_EXP_RGB.elf elf32-ba)
 
 .comment        0x0000000000000000       0x11
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans0.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans1.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans2.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans3.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans4.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans5.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans6.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans7.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans8.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans9.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans10.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans11.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans12.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans13.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans14.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans15.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans16.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans17.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans18.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans19.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans20.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans21.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans22.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans23.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans24.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans25.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans26.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans27.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans28.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans29.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans30.ltrans.o
- .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\ccw9ALV1.ltrans31.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans1.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans2.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans3.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans4.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans5.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans6.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans7.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans8.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans9.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans10.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans11.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans12.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans13.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans14.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans15.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans16.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans17.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans18.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans19.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans20.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans21.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans22.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans23.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans24.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans25.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans26.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans27.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans28.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans29.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans30.ltrans.o
+ .comment       0x0000000000000000       0x12 C:\Users\I24375~1\AppData\Local\Temp\cc6bata2.ltrans31.ltrans.o
  .comment       0x0000000000000000       0x12 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcmp.o)
  .comment       0x0000000000000000       0x12 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memcpy.o)
  .comment       0x0000000000000000       0x12 c:/nxp/bstudio_nxp/sdk/tools/ba-elf-ba2-r36379/bin/../lib/gcc/ba-elf/4.7.4/../../../../ba-elf/lib/mcpu_jn51xx_sizeopt\libc.a(lib_a-memset.o)

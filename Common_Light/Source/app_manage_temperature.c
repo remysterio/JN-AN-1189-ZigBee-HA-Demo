@@ -270,7 +270,7 @@ PUBLIC void APP_vManageTemperatureTick2()
 		while(1){
 			DBG_vPrintf(TRUE, "\n\nAPP: SALUT4\n");
 			u16AdcTempSensor = u16AHI_AdcRead();
-			DBG_vPrintf(TRUE, "\n\nAPP: SALUT5\n");
+			DBG_vPrintf(TRUE, "\n\nAPP: SALUTdd5\n");
 			DBG_vPrintf(TRUE, "\nAPP: %d \n",u16AdcTempSensor);
 		}
 
