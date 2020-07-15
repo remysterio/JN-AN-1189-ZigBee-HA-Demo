@@ -264,18 +264,20 @@ PUBLIC void APP_vManageTemperatureTick2()
 	        while (!bAHI_APRegulatorEnabled());   /* spin on reg not enabled */
         }
 
-		vAHI_AdcEnable(E_AHI_ADC_CONTINUOUS,E_AHI_AP_INPUT_RANGE_1,E_AHI_ADC_SRC_ADC_2);
+		vAHI_AdcEnable(E_AHI_ADC_SINGLE_SHOT,E_AHI_AP_INPUT_RANGE_1,E_AHI_ADC_SRC_ADC_2);
 		vAHI_AdcStartSample();
-		DBG_vPrintf(TRUE, "\n\nAPP: SALUT2\n");
-		while(1){
-			DBG_vPrintf(TRUE, "\n\nAPP: SALUT4\n");
-			u16AdcTempSensor = u16AHI_AdcRead();
-			DBG_vPrintf(TRUE, "\n\nAPP: SALUT5\n");
+		int j =0;
+		int i = 0;
+		for(i = 0; i < 10000000000; i++)
+			{j++;}
+
+		u16AdcTempSensor = u16AHI_AdcRead();
+
 			DBG_vPrintf(TRUE, "\nAPP: %d \n",u16AdcTempSensor);
-		}
 
 
-		DBG_vPrintf(TRUE, "\n\nAPP: SALUT3\n");
+
+		while(1){};
 }
 /****************************************************************************/
 /* NAME: i16GetChipTemp                                                     */
