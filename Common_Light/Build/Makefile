@@ -50,7 +50,7 @@ JENNIC_SDK ?= JN-SW-4168
 
 # Default target device is the JN5168
 
-JENNIC_CHIP ?= JN5169
+JENNIC_CHIP ?= JN5168
 
 JENNIC_CHIP_FAMILY ?=JN516x 
 ##############################################################################

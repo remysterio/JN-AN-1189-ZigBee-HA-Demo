@@ -51,6 +51,7 @@
 #include "app_pdm.h"
 #include "app_common.h"
 #include "app_light_interpolation.h"
+#include "app_manage_temperature.h"
 #include "DriverBulb_Shim.h"
 
 /****************************************************************************/
@@ -122,6 +123,8 @@ PUBLIC void vAppMain(void)
     /* Note HA does not persist the lamp state so power outages    */
     /* Will turn lights On. This is trade off against allowing      */
     /* users to still control the lights from wall switches         */
+    DBG_vPrintf(TRUE, "\n\nAPP: SALUT0\n");
+    APP_vManageTemperatureTick2();
 
      vBULB_Init();
 

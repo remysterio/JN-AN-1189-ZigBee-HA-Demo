@@ -49,6 +49,7 @@
 
 PUBLIC void APP_vManageTemperatureInit(void);
 PUBLIC void APP_vManageTemperatureTick(uint32 u32Ticks);
+PUBLIC void APP_vManageTemperatureTick2();
 /****************************************************************************/
 /***        External Variables                                            ***/
 /****************************************************************************/
