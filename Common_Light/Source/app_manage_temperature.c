@@ -249,35 +249,43 @@ PUBLIC void APP_vManageTemperatureTick(uint32 u32Ticks)
 	}
 }
 PUBLIC void APP_vManageTemperatureTick2()
-{
 
+{
+	#ifdef WATCHDOG_ENABLED
+    vAHI_WatchdogStop();
+    #endif
 	uint16 u16AdcTempSensor;
 	DBG_vPrintf(TRUE, "\n\nAPP: SALUT1\n");
-        if (!bAHI_APRegulatorEnabled())
-        {
-	        vAHI_ApConfigure(E_AHI_AP_REGULATOR_ENABLE,
-						 E_AHI_AP_INT_DISABLE,
-						 E_AHI_AP_SAMPLE_2,
-						 E_AHI_AP_CLOCKDIV_500KHZ,
-						 E_AHI_AP_INTREF);
+	if (!bAHI_APRegulatorEnabled())
+	{
+		vAHI_ApConfigure(E_AHI_AP_REGULATOR_ENABLE,
+					 E_AHI_AP_INT_DISABLE,
+					 E_AHI_AP_SAMPLE_2,
+					 E_AHI_AP_CLOCKDIV_500KHZ,
+					 E_AHI_AP_INTREF);
+		vAHI_ProtocolPower(TRUE);
+		vAHI_ApSetBandGap(E_AHI_AP_BANDGAP_ENABLE);
+		while (!bAHI_APRegulatorEnabled());   /* spin on reg not enabled */
+	}
 
-	        while (!bAHI_APRegulatorEnabled());   /* spin on reg not enabled */
-        }
+	int i = 0,j = 0;
 
-		vAHI_AdcEnable(E_AHI_ADC_SINGLE_SHOT,E_AHI_AP_INPUT_RANGE_1,E_AHI_ADC_SRC_ADC_2);
+	while(1)
+	{
+		vAHI_AdcEnable(E_AHI_ADC_CONTINUOUS,
+					   E_AHI_AP_INPUT_RANGE_1,
+					   E_AHI_ADC_SRC_ADC_1);
 		vAHI_AdcStartSample();
-		int j =0;
-		int i = 0;
-		for(i = 0; i < 10000000000; i++)
-			{j++;}
+		DBG_vPrintf(TRUE, "\n\nAPP: start sample\n");
 
+		for(i=0;i<1000000000;i++)//10000000000
+		{
+			j=i;
+		}
+		while(bAHI_AdcPoll()){};
 		u16AdcTempSensor = u16AHI_AdcRead();
-
-			DBG_vPrintf(TRUE, "\nAPP: %d \n",u16AdcTempSensor);
-
-
-
-		while(1){};
+		DBG_vPrintf(TRUE, "\nAPP: %d \n",u16AdcTempSensor);
+	}
 }
 /****************************************************************************/
 /* NAME: i16GetChipTemp                                                     */

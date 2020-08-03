@@ -123,8 +123,7 @@ PUBLIC void vAppMain(void)
     /* Note HA does not persist the lamp state so power outages    */
     /* Will turn lights On. This is trade off against allowing      */
     /* users to still control the lights from wall switches         */
-    DBG_vPrintf(TRUE, "\n\nAPP: SALUT0\n");
-    APP_vManageTemperatureTick2();
+
 
      vBULB_Init();
 
@@ -158,7 +157,8 @@ PUBLIC void vAppMain(void)
     /* start the RTOS */
     OS_vStart(vInitialiseApp, vUnclaimedInterrupt, vOSError);
     DBG_vPrintf(TRACE_START, "OS started\n");
-
+          DBG_vPrintf(TRUE, "\n\nAPP: SALUT0\n");
+           APP_vManageTemperatureTick2();
     /* idle task commences here */
     while (TRUE)
     {
@@ -177,6 +177,8 @@ PUBLIC void vAppMain(void)
         	vAHI_CpuDoze();
         }
     }
+
+
 }
 
 
